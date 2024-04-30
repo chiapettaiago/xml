@@ -1,0 +1,17 @@
+<?php
+
+$path    = './';
+$files = scandir($path);
+$extensions = array('xml', 'xsd', 'pdf', 'doc');
+
+foreach($files as $file){
+
+    $fileInfo = new SplFileInfo($path.$file);
+  
+    if(in_array($fileInfo->getExtension(), $extensions)){
+        echo "<a href='{$path}{$file}' target='_blank'>{$file}</a><br />";
+    }
+
+ }
+
+?>

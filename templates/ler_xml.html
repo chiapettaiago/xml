@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteúdo do XML</title>
+</head>
+<body>
+    <h1>Conteúdo do XML</h1>
+    <pre>{{ xml_string }}</pre>
+    <script>
+        // Função para acionar o download do arquivo XML modificado
+        function downloadXml() {
+            fetch('/download_xml')
+            .then(response => response.blob())
+            .then(blob => {
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'exemplo_modificado.xml';
+                document.body.appendChild(a);
+                a.click();
+                window.URL.revokeObjectURL(url);
+            });
+        }
+        
+        // Chama a função downloadXml() ao carregar a página
+        window.onload = function() {
+            downloadXml();
+        };
+    </script>
+</body>
+</html>
