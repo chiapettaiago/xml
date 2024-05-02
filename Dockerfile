@@ -1,5 +1,5 @@
 # Use uma imagem base do Ubuntu
-FROM ubuntu:24.04
+FROM ubuntu:22.04
 
 # Atualize o sistema e instale o Python
 RUN apt-get update && apt-get install -y && apt dist-upgrade -y python3 python3-pip
