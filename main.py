@@ -40,12 +40,13 @@ def modificar_xml(xml_string):
             if element.text:
                 if re.match(r'^\d+(\.\d+)?$', element.text):
                     # Verifica se o texto contém apenas números
-                    if len(element.text.split('.')) > 1:
-                        # Se houver um ponto decimal, arredonda para duas casas decimais
+                    if element.tag.endswith('valorUnitario') or element.tag.endswith('valorTotal') or element.tag.endswith('valorProcedimentos') or element.tag.endswith('valorTotalGeral') or element.tag.endswith('reducaoAcrescimo'):
+                        # Arredonda para duas casas decimais se estiver nas tags mencionadas
                         element.text = "{:.2f}".format(float(element.text))
         return etree.tostring(root, encoding='utf-8', method='xml').decode("utf-8")
     except etree.XMLSyntaxError:
         return "Erro XML: XML inválido."
+
 
 # Função para gravar o arquivo modificado
 def gravar_arquivo(xml_string, nome_arquivo):

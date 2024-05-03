@@ -193,8 +193,8 @@
             <ans:procedimentoExecutado>
               <ans:sequencialItem>6</ans:sequencialItem>
               <ans:dataExecucao>2024-03-07</ans:dataExecucao>
-              <ans:horaInicial>09:28:0057</ans:horaInicial>
-              <ans:horaFinal>09:28:0057</ans:horaFinal>
+              <ans:horaInicial>09:28:00</ans:horaInicial>
+              <ans:horaFinal>09:28:00</ans:horaFinal>
               <ans:procedimento>
                 <ans:codigoTabela>22</ans:codigoTabela>
                 <ans:codigoProcedimento>40301630</ans:codigoProcedimento>
@@ -567,8 +567,8 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>23</ans:valorUnitario>
-              <ans:valorTotal>23</ans:valorTotal>
+              <ans:valorUnitario>23.00</ans:valorUnitario>
+              <ans:valorTotal>23.00</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
               <ans:sequencialItem>28</ans:sequencialItem>
@@ -2728,8 +2728,8 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>9</ans:valorUnitario>
-              <ans:valorTotal>9</ans:valorTotal>
+              <ans:valorUnitario>9.00</ans:valorUnitario>
+              <ans:valorTotal>9.00</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
               <ans:sequencialItem>145</ans:sequencialItem>
@@ -2743,8 +2743,8 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>2</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>54</ans:valorUnitario>
-              <ans:valorTotal>108</ans:valorTotal>
+              <ans:valorUnitario>54.00</ans:valorUnitario>
+              <ans:valorTotal>108.00</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
               <ans:sequencialItem>146</ans:sequencialItem>
@@ -2758,8 +2758,8 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>2</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>90</ans:valorUnitario>
-              <ans:valorTotal>180</ans:valorTotal>
+              <ans:valorUnitario>90.00</ans:valorUnitario>
+              <ans:valorTotal>180.00</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
               <ans:sequencialItem>147</ans:sequencialItem>
@@ -2773,8 +2773,8 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>2</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>126</ans:valorUnitario>
-              <ans:valorTotal>252</ans:valorTotal>
+              <ans:valorUnitario>126.00</ans:valorUnitario>
+              <ans:valorTotal>252.00</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
               <ans:sequencialItem>148</ans:sequencialItem>
