@@ -1,15 +1,21 @@
 from flask import Flask, render_template, request, redirect, url_for, send_file
 from validate.validate import listar_versoes_tiss, validar_xml_contra_xsd, find_padrao_tag
+from corrector.xml_corrector import XMLCorrector
 from lxml import etree
 from io import BytesIO
 from urllib.parse import unquote
 import os
 import re
+import platform
 
 app = Flask(__name__)
 
 UPLOAD_FOLDER = 'uploads'
-SCHEMA_FOLDER = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'schemas\\')
+
+if platform.system() == 'Windows':
+    SCHEMA_FOLDER = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'schemas\\')
+elif platform.system() == 'Linux':
+    SCHEMA_FOLDER = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'schemas/')
 
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
@@ -31,21 +37,6 @@ def corrigir_xml(arquivo):
             xml_data = xml_data[pos:]
         xml_data = '<?xml version="1.0"?>' + xml_data
         return xml_data
-
-# Função para modificar o XML
-def modificar_xml(xml_string):
-    try:
-        root = etree.fromstring(xml_string)
-        for element in root.iter():
-            if element.text:
-                if re.match(r'^\d+(\.\d+)?$', element.text):
-                    # Verifica se o texto contém apenas números
-                    if element.tag.endswith('valorUnitario') or element.tag.endswith('valorTotal') or element.tag.endswith('valorProcedimentos') or element.tag.endswith('valorTotalGeral') or element.tag.endswith('reducaoAcrescimo'):
-                        # Arredonda para duas casas decimais se estiver nas tags mencionadas
-                        element.text = "{:.2f}".format(float(element.text))
-        return etree.tostring(root, encoding='utf-8', method='xml').decode("utf-8")
-    except etree.XMLSyntaxError:
-        return "Erro XML: XML inválido."
 
 
 # Função para gravar o arquivo modificado
@@ -99,7 +90,7 @@ def index():
         if arquivo:
             # Corrigir e modificar o XML
             xml_string = corrigir_xml(arquivo)
-            xml_string_modificado = modificar_xml(xml_string)
+            xml_string_modificado = XMLCorrector.modificar_xml(xml_string)
             gravar_arquivo(xml_string_modificado, 'exemplo_modificado.xml')
             # Redirecionar para a página de exibição do XML
             return render_template('ler_xml.html', xml_string=xml_string_modificado)
