@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for, send_file
-from validate import listar_versoes_tiss, validar_xml_contra_xsd, find_padrao_tag
+from validate.validate import listar_versoes_tiss, validar_xml_contra_xsd, find_padrao_tag
 from lxml import etree
 from io import BytesIO
 from urllib.parse import unquote
@@ -107,6 +107,15 @@ def index():
 
 @app.route('/validar_tiss', methods=['GET', 'POST'])
 def validar_tiss():
+    # Verificar se o arquivo 'exemplo_modificado.xml' existe antes do método POST
+    if os.path.exists('exemplo_modificado.xml'):
+        tiss_version = find_padrao_tag('exemplo_modificado.xml')
+        xsd_path = f"{SCHEMA_FOLDER}tissV{tiss_version.replace('.', '_')}.xsd"  # Substitua 'X_Y_Z' pela versão do TISS correspondente ao arquivo 'exemplo_modificado.xml'
+        resultado = validar_xml_contra_xsd('exemplo_modificado.xml', xsd_path)
+        os.remove('exemplo_modificado.xml')
+    else:
+        resultado = 'Nenhum arquivo XML foi inserido ainda'
+
     if request.method == 'POST':
         arquivo = request.files['arquivo']
         if arquivo:
@@ -132,7 +141,7 @@ def validar_tiss():
             
             # Renderizar a página com o resultado da validação
             return render_template('resultado_validacao.html', resultado_validacao=resultado, erro_tiss=erro_tiss)
-    return render_template('resultado_validacao.html')
+    return render_template('resultado_validacao.html', resultado_validacao=resultado,)
 
 
 
