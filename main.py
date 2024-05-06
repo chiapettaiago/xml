@@ -7,6 +7,7 @@ from urllib.parse import unquote
 import os
 import re
 import platform
+import difflib
 
 app = Flask(__name__)
 
@@ -90,49 +91,46 @@ def index():
         if arquivo:
             # Corrigir e modificar o XML
             xml_string = corrigir_xml(arquivo)
+            gravar_arquivo(xml_string, 'exemplo_original.xml')
             xml_string_modificado = XMLCorrector.modificar_xml(xml_string)
             gravar_arquivo(xml_string_modificado, 'exemplo_modificado.xml')
+            
+            tiss_version = find_padrao_tag('exemplo_modificado.xml')
+            
+            # Identificar as linhas alteradas
+            diff_lines = difflib.unified_diff(xml_string.splitlines(), xml_string_modificado.splitlines(), lineterm='')
+            linhas_alteradas = [line[3:] for line in diff_lines if line.startswith('+')]
             # Redirecionar para a página de exibição do XML
-            return render_template('ler_xml.html', xml_string=xml_string_modificado)
+            return render_template('ler_xml.html', xml_string=xml_string_modificado, linhas_alteradas=linhas_alteradas, tiss_version=tiss_version)
     return render_template('index.html')
 
 @app.route('/validar_tiss', methods=['GET', 'POST'])
 def validar_tiss():
-    # Verificar se o arquivo 'exemplo_modificado.xml' existe antes do método POST
+    # Verificar se o arquivo 'exemplo_modificado.xml' existe
     if os.path.exists('exemplo_modificado.xml'):
         tiss_version = find_padrao_tag('exemplo_modificado.xml')
-        xsd_path = f"{SCHEMA_FOLDER}tissV{tiss_version.replace('.', '_')}.xsd"  # Substitua 'X_Y_Z' pela versão do TISS correspondente ao arquivo 'exemplo_modificado.xml'
-        resultado = validar_xml_contra_xsd('exemplo_modificado.xml', xsd_path)
-        os.remove('exemplo_modificado.xml')
+        xsd_path = f"{SCHEMA_FOLDER}tissV{tiss_version.replace('.', '_')}.xsd"  
+        resultado = validar_xml_contra_xsd('exemplo_modificado.xml', xsd_path, tiss_version)
+        
+        # Renderizar a página com o resultado da validação
+        return render_template('resultado_validacao.html', resultado_validacao=resultado)
     else:
-        resultado = 'Nenhum arquivo XML foi inserido ainda'
-
-    if request.method == 'POST':
-        arquivo = request.files['arquivo']
-        if arquivo:
-            # Salvar o arquivo temporariamente
-            arquivo_temporario = 'temp.xml'
-            arquivo.save(arquivo_temporario)
-            
-            # Obter o caminho do XSD correspondente à versão do TISS no XML
-            xml_string = corrigir_xml(arquivo)
-            tiss_version = find_padrao_tag(arquivo_temporario)
-            erro_tiss = None
-            if tiss_version is None:
-                erro_tiss = "Não foi possível encontrar a versão do TISS"
-            
-            
-            xsd_path = f"{SCHEMA_FOLDER}tissV{tiss_version.replace('.', '_')}.xsd"
-            
-            # Validar o XML contra o XSD correspondente
-            resultado = validar_xml_contra_xsd(arquivo_temporario, xsd_path)
-            
-            # Remover o arquivo temporário
-            os.remove(arquivo_temporario)
-            
-            # Renderizar a página com o resultado da validação
-            return render_template('resultado_validacao.html', resultado_validacao=resultado, erro_tiss=erro_tiss)
-    return render_template('resultado_validacao.html', resultado_validacao=resultado,)
+        resultado = 'Nenhum arquivo XML foi encontrado para validação'
+        return render_template('resultado_validacao.html', resultado_validacao=resultado)
+    
+    
+@app.route('/corrigir_xml', methods=['GET', 'POST'])
+def corrigir():
+    # Corrigir e modificar o XML
+    tree = etree.parse('exemplo_original.xml')
+    xml_bytes = etree.tostring(tree, pretty_print=True)
+    xml_string = xml_bytes.decode('utf-8')
+    xml_string_modificado = XMLCorrector.modificar_xml(xml_string)
+    # Identificar as linhas alteradas
+    diff_lines = difflib.unified_diff(xml_string.splitlines(), xml_string_modificado.splitlines(), lineterm='')
+    linhas_alteradas = [line[3:] for line in diff_lines if line.startswith('+')]
+    
+    return render_template('corrigir_xml.html', linhas_alteradas=linhas_alteradas, xml_string=xml_string_modificado)
 
 
 

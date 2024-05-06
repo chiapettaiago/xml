@@ -12,11 +12,13 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+          {% if not request.path == '/' %}
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="/validar_tiss">Validação Tiss</a>
+              <a class="nav-link" href="javascript:history.back()">Voltar</a>
             </div>
           </div>
+          {% endif %}
         </div>
       </nav>
 </body>

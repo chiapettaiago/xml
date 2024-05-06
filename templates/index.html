@@ -17,13 +17,10 @@
                         <h5 class="text-center">Enviar Arquivo XML</h5>
                     </div>
                     <div class="card-body">
-                        <form method="post" enctype="multipart/form-data">
+                        <form id="xmlForm" method="post" enctype="multipart/form-data">
                             <div class="mb-3">
                                 <label for="arquivo" class="form-label">Selecione o arquivo XML:</label>
-                                <input type="file" class="form-control" id="arquivo" name="arquivo" accept=".xml">
-                            </div>
-                            <div class="text-center">
-                                <button type="submit" class="btn btn-primary">Enviar</button>
+                                <input type="file" class="form-control" id="arquivo" name="arquivo" accept=".xml" onchange="submitForm()">
                             </div>
                         </form>
                     </div>
@@ -31,6 +28,11 @@
             </div>
         </div>
     </div>
+    <script>
+        function submitForm() {
+            document.getElementById('xmlForm').submit();
+        }
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

@@ -42,7 +42,7 @@ def find_padrao_tag(xml_file):
     
     return padrao_tag.text
     
-def validar_xml_contra_xsd(xml_path, xsd_path):
+def validar_xml_contra_xsd(xml_path, xsd_path, tiss_version):
     try:
         with open(xsd_path, 'rb') as xsd_file:
             schema_doc = etree.parse(xsd_file)
@@ -58,7 +58,7 @@ def validar_xml_contra_xsd(xml_path, xsd_path):
                         if elem.text is None:
                             elem.text = ""
                 schema.assertValid(xml_doc)
-                return f"O XML é válido de acordo com o schema XSD fornecido. TISS {xsd_path} "
+                return f"O XML é válido de acordo com o schema XSD fornecido. TISS {tiss_version} "
             except IOError as e:
                 print(f"Falha ao abrir o arquivo {xml_path}: {e}")
                 return f"Falha ao abrir o arquivo: {e}"
@@ -75,4 +75,4 @@ def validar_xml_contra_xsd(xml_path, xsd_path):
     except etree.XMLSchemaError as e:
         return f"Erro ao validar o XML: {e}"
     except Exception as e:
-        return f"Erro desconhecido ao validar o XML: {e}. TISS {xsd_path}"
+        return f"Erro desconhecido ao validar o XML: {e}. TISS {tiss_version}"

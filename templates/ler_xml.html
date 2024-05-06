@@ -11,46 +11,34 @@
     <div class="container mt-5">
         <div class="card">
             <div class="card-header text-center fw-bold">
-                Conteúdo do XML
+                Versão TISS:
             </div>
             <div class="card-body">
-                <pre>{{ xml_string }}</pre>
+                <div class="text-center" role="alert">
+                    <h5>{{ tiss_version }}</h5>
             </div>
         </div>
-        {% if resultado_validacao %}
+        </div>
         <div class="card mt-5">
-            <div class="card-header">
-                Resultado da Validação TISS
+            <div class="card-header text-center fw-bold">
+                Opções:
             </div>
             <div class="card-body">
-                <div class="alert alert-{{ resultado_validacao['tipo'] }}" role="alert">
-                    {{ resultado_validacao }}
+                <div class="d-flex justify-content-center">
+                    <form action="/validar_tiss" class="d-inline" method="post">
+                        <button class="btn btn-primary" type="submit">Validar XML</button>
+                    </form>
+                    <form action="/corrigir_xml" class="d-inline mx-2" method="post">
+                        <button class="btn btn-primary" type="submit">Corrigir XML</button>
+                    </form>
                 </div>
             </div>
         </div>
-        {% endif %}
-    </div>
-    <script>
-        // Função para acionar o download do arquivo XML modificado
-        function downloadXml() {
-            fetch('/download_xml')
-            .then(response => response.blob())
-            .then(blob => {
-                const url = window.URL.createObjectURL(blob);
-                const a = document.createElement('a');
-                a.href = url;
-                a.download = 'exemplo_modificado.xml';
-                document.body.appendChild(a);
-                a.click();
-                window.URL.revokeObjectURL(url);
-            });
-        }
         
-        // Chama a função downloadXml() ao carregar a página
-        window.onload = function() {
-            downloadXml();
-        };
+    <script>
+        
     </script>
+    <!--<script src="{{url_for('static', filename='js/download.js')}}"></script>-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
