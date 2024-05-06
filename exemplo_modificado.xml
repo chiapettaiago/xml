@@ -193,8 +193,8 @@
             <ans:procedimentoExecutado>
               <ans:sequencialItem>6</ans:sequencialItem>
               <ans:dataExecucao>2024-03-07</ans:dataExecucao>
-              <ans:horaInicial>09:28:0057</ans:horaInicial>
-              <ans:horaFinal>09:28:0057</ans:horaFinal>
+              <ans:horaInicial>09:28:00</ans:horaInicial>
+              <ans:horaFinal>09:28:00</ans:horaFinal>
               <ans:procedimento>
                 <ans:codigoTabela>22</ans:codigoTabela>
                 <ans:codigoProcedimento>40301630</ans:codigoProcedimento>

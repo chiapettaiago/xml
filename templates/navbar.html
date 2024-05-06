@@ -9,19 +9,20 @@
 <body>
     <nav class="navbar sticky-top border navbar-expand-lg bg-body-tertiary border">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/">Home</a>
+          <a class="navbar-brand" href="/"><i class="fa-solid fa-house fa-lg"></i></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           {% if not request.path == '/' %}
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link" href="javascript:history.back()">Voltar</a>
+              <a class="nav-link" href="javascript:history.back()"><i class="fa-solid fa-rotate-left fa-lg"></i></a>
             </div>
           </div>
           {% endif %}
         </div>
       </nav>
+      <script src="https://kit.fontawesome.com/39df25bfda.js" crossorigin="anonymous"></script>
       <script src="{{url_for('static', filename='js/opacity.js')}}"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
