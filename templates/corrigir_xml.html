@@ -16,8 +16,8 @@
         <div class="card-body">
             <pre>
                 {% if linhas_alteradas %}
-                    {% for linha in linhas_alteradas %}
-                        {{ linha }}<br>
+                    {% for linha, conteudo in linhas_alteradas %}
+                        Linha: {{ linha }} {{ conteudo }}
                     {% endfor %}
                 {% else %}
                     Nenhuma linha alterada.
@@ -32,14 +32,14 @@
 
     <!-- Botão flutuante para alternar modo claro/escuro-->
     <div class="position-fixed bottom-0 start-0 mb-3 ms-3">
-        <button type="button" class="btn btn-outline-dark border shadow" title="Alternar entre Modo Claro e Escuro" id="btnSwitch">
+        <button type="button" class="btn btn-primary border shadow" title="Alternar entre Modo Claro e Escuro" id="btnSwitch">
             <i class="fa-solid fa-circle-half-stroke fa-bounce"></i>
         </button>
     </div>
 
     <!-- Botão "Voltar ao Topo" -->
     <div class="position-fixed bottom-0 end-0 p-3" style="display: none;" id="btnVoltarTopoContainer">
-        <a href="#" class="btn btn-secondary btn-lg" id="btnVoltarTopo">
+        <a href="#" class="btn btn-secondary" id="btnVoltarTopo">
             <i class="fas fa-arrow-up"></i>
         </a>
     </div>

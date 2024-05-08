@@ -135,11 +135,34 @@ def corrigir():
     xml_bytes = etree.tostring(tree, pretty_print=True)
     xml_string = xml_bytes.decode('utf-8')
     xml_string_modificado = XMLCorrector.modificar_xml(xml_string)
+
     # Identificar as linhas alteradas
-    diff_lines = difflib.unified_diff(xml_string.splitlines(), xml_string_modificado.splitlines(), lineterm='')
-    linhas_alteradas = [line[3:] for line in diff_lines if line.startswith('+')]
-    
-    return render_template('corrigir_xml.html', linhas_alteradas=linhas_alteradas, xml_string=xml_string_modificado)
+    diff = difflib.unified_diff(xml_string.splitlines(), xml_string_modificado.splitlines(), lineterm='')
+    linhas_alteradas = []
+    linha_anterior = None
+    for line in diff:
+        if line.startswith('+'):
+            num_linha = 0
+            for i, l in enumerate(xml_string_modificado.splitlines()):
+                if l == line[1:]:
+                    num_linha = i + 1
+                    break
+            if line[1:] != linha_anterior and num_linha > 0:
+                linhas_alteradas.append((num_linha, line[1:]))
+                linha_anterior = line[1:]
+
+    # Ordenar as linhas alteradas por número
+    linhas_alteradas.sort(key=lambda x: x[0])
+
+    # Remover linhas duplicadas
+    linhas_unicas = []
+    linhas_vistas = set()
+    for num_linha, conteudo in linhas_alteradas:
+        if conteudo not in linhas_vistas:
+            linhas_unicas.append((num_linha, conteudo))
+            linhas_vistas.add(conteudo)
+
+    return render_template('corrigir_xml.html', linhas_alteradas=linhas_unicas, xml_string=xml_string_modificado)
 
 
 @app.route('/download_xml')
