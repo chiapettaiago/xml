@@ -2,9 +2,9 @@
   <ans:cabecalho>
     <ans:identificacaoTransacao>
       <ans:tipoTransacao>ENVIO_LOTE_GUIAS</ans:tipoTransacao>
-      <ans:sequencialTransacao>43684</ans:sequencialTransacao>
+      <ans:sequencialTransacao>43698</ans:sequencialTransacao>
       <ans:dataRegistroTransacao>2024-04-12</ans:dataRegistroTransacao>
-      <ans:horaRegistroTransacao>12:17:22</ans:horaRegistroTransacao>
+      <ans:horaRegistroTransacao>11:59:38</ans:horaRegistroTransacao>
     </ans:identificacaoTransacao>
     <ans:origem>
       <ans:identificacaoPrestador>
@@ -76,8 +76,8 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>29.5734</ans:valorUnitario>
-              <ans:valorTotal>29.5734</ans:valorTotal>
+              <ans:valorUnitario>29.57</ans:valorUnitario>
+              <ans:valorTotal>29.57</ans:valorTotal>
             </ans:procedimentoExecutado>
           </ans:procedimentosExecutados>
           <ans:valorTotal>
@@ -137,16 +137,31 @@
               <ans:horaFinal>09:28:00</ans:horaFinal>
               <ans:procedimento>
                 <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40304361</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>HEMOGRAMA COM CONTAGEM DE PLAQUETAS OU FRACOES (ERITROGRAMA,</ans:descricaoProcedimento>
+                <ans:codigoProcedimento>40301583</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>COLESTEROL (HDL) - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>12.5527</ans:valorUnitario>
-              <ans:valorTotal>12.5527</ans:valorTotal>
+              <ans:valorUnitario>12.55</ans:valorUnitario>
+              <ans:valorTotal>12.55</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
               <ans:sequencialItem>3</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-07</ans:dataExecucao>
+              <ans:horaInicial>09:28:00</ans:horaInicial>
+              <ans:horaFinal>09:28:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40301150</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>ACIDO URICO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.85</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>4</ans:sequencialItem>
               <ans:dataExecucao>2024-03-07</ans:dataExecucao>
               <ans:horaInicial>09:28:00</ans:horaInicial>
               <ans:horaFinal>09:28:00</ans:horaFinal>
@@ -161,82 +176,7 @@
               <ans:valorTotal>4.18</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>4</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-07</ans:dataExecucao>
-              <ans:horaInicial>09:28:00</ans:horaInicial>
-              <ans:horaFinal>09:28:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40308391</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>PROTEINA C REATIVA, QUANTITATIVA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>28.0238</ans:valorUnitario>
-              <ans:valorTotal>28.0238</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
               <ans:sequencialItem>5</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-07</ans:dataExecucao>
-              <ans:horaInicial>09:28:00</ans:horaInicial>
-              <ans:horaFinal>09:28:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302580</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>UREIA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>6</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-07</ans:dataExecucao>
-              <ans:horaInicial>09:28:00</ans:horaInicial>
-              <ans:horaFinal>09:28:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40301630</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>CREATININA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>7</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-07</ans:dataExecucao>
-              <ans:horaInicial>09:28:00</ans:horaInicial>
-              <ans:horaFinal>09:28:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302504</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>TRANSAMINASE OXALACETICA (AMINO TRANSFERASE ASPARTATO) - PES</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>8</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-07</ans:dataExecucao>
-              <ans:horaInicial>09:28:00</ans:horaInicial>
-              <ans:horaFinal>09:28:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302512</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>TRANSAMINASE PIRUVICA (AMINO TRANSFERASE DE ALANINA) - PESQU</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>9</ans:sequencialItem>
               <ans:dataExecucao>2024-03-07</ans:dataExecucao>
               <ans:horaInicial>09:28:00</ans:horaInicial>
               <ans:horaFinal>09:28:00</ans:horaFinal>
@@ -251,7 +191,7 @@
               <ans:valorTotal>8.36</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>10</ans:sequencialItem>
+              <ans:sequencialItem>6</ans:sequencialItem>
               <ans:dataExecucao>2024-03-07</ans:dataExecucao>
               <ans:horaInicial>09:28:00</ans:horaInicial>
               <ans:horaFinal>09:28:00</ans:horaFinal>
@@ -266,7 +206,37 @@
               <ans:valorTotal>7.53</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>11</ans:sequencialItem>
+              <ans:sequencialItem>7</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-07</ans:dataExecucao>
+              <ans:horaInicial>09:28:00</ans:horaInicial>
+              <ans:horaFinal>09:28:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40302580</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>UREIA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.85</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>8</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-07</ans:dataExecucao>
+              <ans:horaInicial>09:28:00</ans:horaInicial>
+              <ans:horaFinal>09:28:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40301630</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>CREATININA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.85</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>9</ans:sequencialItem>
               <ans:dataExecucao>2024-03-07</ans:dataExecucao>
               <ans:horaInicial>09:28:00</ans:horaInicial>
               <ans:horaFinal>09:28:00</ans:horaFinal>
@@ -281,67 +251,7 @@
               <ans:valorTotal>5.85</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>12</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-07</ans:dataExecucao>
-              <ans:horaInicial>09:28:00</ans:horaInicial>
-              <ans:horaFinal>09:28:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302075</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>HEMOGLOBINA GLICADA (A1 TOTAL) - PESQUISA E/OU DOS</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>18.82</ans:valorUnitario>
-              <ans:valorTotal>18.82</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>13</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-07</ans:dataExecucao>
-              <ans:horaInicial>09:28:00</ans:horaInicial>
-              <ans:horaFinal>09:28:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40301605</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>COLESTEROL TOTAL - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>14</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-07</ans:dataExecucao>
-              <ans:horaInicial>09:28:00</ans:horaInicial>
-              <ans:horaFinal>09:28:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40301583</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>COLESTEROL (HDL) - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>12.55</ans:valorUnitario>
-              <ans:valorTotal>12.55</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>15</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-07</ans:dataExecucao>
-              <ans:horaInicial>09:28:00</ans:horaInicial>
-              <ans:horaFinal>09:28:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40301591</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>COLESTEROL (LDL) - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>16.73</ans:valorUnitario>
-              <ans:valorTotal>16.73</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>16</ans:sequencialItem>
+              <ans:sequencialItem>10</ans:sequencialItem>
               <ans:dataExecucao>2024-03-07</ans:dataExecucao>
               <ans:horaInicial>09:28:00</ans:horaInicial>
               <ans:horaFinal>09:28:00</ans:horaFinal>
@@ -356,14 +266,104 @@
               <ans:valorTotal>24.67</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
+              <ans:sequencialItem>11</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-07</ans:dataExecucao>
+              <ans:horaInicial>09:28:00</ans:horaInicial>
+              <ans:horaFinal>09:28:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40304361</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>HEMOGRAMA COM CONTAGEM DE PLAQUETAS OU FRACOES (ERITROGRAMA,</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>12.5460</ans:valorUnitario>
+              <ans:valorTotal>12.55</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>12</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-07</ans:dataExecucao>
+              <ans:horaInicial>09:28:00</ans:horaInicial>
+              <ans:horaFinal>09:28:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40308391</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>PROTEINA C REATIVA, QUANTITATIVA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>28.02</ans:valorUnitario>
+              <ans:valorTotal>28.02</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>13</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-07</ans:dataExecucao>
+              <ans:horaInicial>09:28:00</ans:horaInicial>
+              <ans:horaFinal>09:28:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40302504</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>TRANSAMINASE OXALACETICA (AMINO TRANSFERASE ASPARTATO) - PES</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.85</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>14</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-07</ans:dataExecucao>
+              <ans:horaInicial>09:28:00</ans:horaInicial>
+              <ans:horaFinal>09:28:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40302075</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>HEMOGLOBINA GLICADA (A1 TOTAL) - PESQUISA E/OU DOS</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>18.8190</ans:valorUnitario>
+              <ans:valorTotal>18.82</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>15</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-07</ans:dataExecucao>
+              <ans:horaInicial>09:28:00</ans:horaInicial>
+              <ans:horaFinal>09:28:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40301605</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>COLESTEROL TOTAL - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.85</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>16</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-07</ans:dataExecucao>
+              <ans:horaInicial>09:28:00</ans:horaInicial>
+              <ans:horaFinal>09:28:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40301591</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>COLESTEROL (LDL) - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>16.73</ans:valorUnitario>
+              <ans:valorTotal>16.73</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
               <ans:sequencialItem>17</ans:sequencialItem>
               <ans:dataExecucao>2024-03-07</ans:dataExecucao>
               <ans:horaInicial>09:28:00</ans:horaInicial>
               <ans:horaFinal>09:28:00</ans:horaFinal>
               <ans:procedimento>
                 <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40301150</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>ACIDO URICO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+                <ans:codigoProcedimento>40302512</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>TRANSAMINASE PIRUVICA (AMINO TRANSFERASE DE ALANINA) - PESQU</ans:descricaoProcedimento>
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
@@ -447,7 +447,7 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>12.55</ans:valorUnitario>
+              <ans:valorUnitario>12.5460</ans:valorUnitario>
               <ans:valorTotal>12.55</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
@@ -472,166 +472,16 @@
               <ans:horaFinal>07:19:00</ans:horaFinal>
               <ans:procedimento>
                 <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40316270</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>FERRITINA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+                <ans:codigoProcedimento>40302750</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>PERFIL LIPIDICO / LIPIDOGRAMA (LIPIDIOS TOTAIS, COLESTEROL,</ans:descricaoProcedimento>
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>52.28</ans:valorUnitario>
-              <ans:valorTotal>52.28</ans:valorTotal>
+              <ans:valorUnitario>29.27</ans:valorUnitario>
+              <ans:valorTotal>29.27</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
               <ans:sequencialItem>22</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-08</ans:dataExecucao>
-              <ans:horaInicial>07:19:00</ans:horaInicial>
-              <ans:horaFinal>07:19:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40313328</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>ZINCO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>50.18</ans:valorUnitario>
-              <ans:valorTotal>50.18</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>23</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-08</ans:dataExecucao>
-              <ans:horaInicial>07:19:00</ans:horaInicial>
-              <ans:horaFinal>07:19:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40305570</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>PROVA DO TRH-TSH, DOSAGEM DO TSH SEM FORNECIMENTO</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>35.55</ans:valorUnitario>
-              <ans:valorTotal>35.55</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>24</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-08</ans:dataExecucao>
-              <ans:horaInicial>07:19:00</ans:horaInicial>
-              <ans:horaFinal>07:19:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40316491</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>T4 LIVRE - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>35.55</ans:valorUnitario>
-              <ans:valorTotal>35.55</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>25</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-08</ans:dataExecucao>
-              <ans:horaInicial>07:19:00</ans:horaInicial>
-              <ans:horaFinal>07:19:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302040</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>GLICOSE - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>26</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-08</ans:dataExecucao>
-              <ans:horaInicial>07:19:00</ans:horaInicial>
-              <ans:horaFinal>07:19:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302075</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>HEMOGLOBINA GLICADA (A1 TOTAL) - PESQUISA E/OU DOS</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>18.82</ans:valorUnitario>
-              <ans:valorTotal>18.82</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>27</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-08</ans:dataExecucao>
-              <ans:horaInicial>07:19:00</ans:horaInicial>
-              <ans:horaFinal>07:19:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40316360</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>INSULINA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>23</ans:valorUnitario>
-              <ans:valorTotal>23</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>28</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-08</ans:dataExecucao>
-              <ans:horaInicial>07:19:00</ans:horaInicial>
-              <ans:horaFinal>07:19:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40316424</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>PTH - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>83.64</ans:valorUnitario>
-              <ans:valorTotal>83.64</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>29</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-08</ans:dataExecucao>
-              <ans:horaInicial>07:19:00</ans:horaInicial>
-              <ans:horaFinal>07:19:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40301400</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>CALCIO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>30</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-08</ans:dataExecucao>
-              <ans:horaInicial>07:19:00</ans:horaInicial>
-              <ans:horaFinal>07:19:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302830</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>VITAMINA D 25 HIDROXI, DOSAGEM (VITAMINA D3)</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>24.67</ans:valorUnitario>
-              <ans:valorTotal>24.67</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>31</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-08</ans:dataExecucao>
-              <ans:horaInicial>07:19:00</ans:horaInicial>
-              <ans:horaFinal>07:19:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40316572</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>VITAMINA B12 - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>35.55</ans:valorUnitario>
-              <ans:valorTotal>35.55</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>32</ans:sequencialItem>
               <ans:dataExecucao>2024-03-08</ans:dataExecucao>
               <ans:horaInicial>07:19:00</ans:horaInicial>
               <ans:horaFinal>07:19:00</ans:horaFinal>
@@ -646,19 +496,169 @@
               <ans:valorTotal>12.55</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
+              <ans:sequencialItem>23</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-08</ans:dataExecucao>
+              <ans:horaInicial>07:19:00</ans:horaInicial>
+              <ans:horaFinal>07:19:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40302512</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>TRANSAMINASE PIRUVICA (AMINO TRANSFERASE DE ALANINA) - PESQU</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.85</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>24</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-08</ans:dataExecucao>
+              <ans:horaInicial>07:19:00</ans:horaInicial>
+              <ans:horaFinal>07:19:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40313328</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>ZINCO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>50.18</ans:valorUnitario>
+              <ans:valorTotal>50.18</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>25</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-08</ans:dataExecucao>
+              <ans:horaInicial>07:19:00</ans:horaInicial>
+              <ans:horaFinal>07:19:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40302075</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>HEMOGLOBINA GLICADA (A1 TOTAL) - PESQUISA E/OU DOS</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>18.8190</ans:valorUnitario>
+              <ans:valorTotal>18.82</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>26</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-08</ans:dataExecucao>
+              <ans:horaInicial>07:19:00</ans:horaInicial>
+              <ans:horaFinal>07:19:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40316572</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>VITAMINA B12 - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>35.55</ans:valorUnitario>
+              <ans:valorTotal>35.55</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>27</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-08</ans:dataExecucao>
+              <ans:horaInicial>07:19:00</ans:horaInicial>
+              <ans:horaFinal>07:19:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40316424</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>PTH - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>83.64</ans:valorUnitario>
+              <ans:valorTotal>83.64</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>28</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-08</ans:dataExecucao>
+              <ans:horaInicial>07:19:00</ans:horaInicial>
+              <ans:horaFinal>07:19:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40302504</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>TRANSAMINASE OXALACETICA (AMINO TRANSFERASE ASPARTATO) - PES</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.85</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>29</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-08</ans:dataExecucao>
+              <ans:horaInicial>07:19:00</ans:horaInicial>
+              <ans:horaFinal>07:19:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40302423</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>SODIO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.85</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>30</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-08</ans:dataExecucao>
+              <ans:horaInicial>07:19:00</ans:horaInicial>
+              <ans:horaFinal>07:19:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40316491</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>T4 LIVRE - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>35.55</ans:valorUnitario>
+              <ans:valorTotal>35.55</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>31</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-08</ans:dataExecucao>
+              <ans:horaInicial>07:19:00</ans:horaInicial>
+              <ans:horaFinal>07:19:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40302040</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>GLICOSE - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.85</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>32</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-08</ans:dataExecucao>
+              <ans:horaInicial>07:19:00</ans:horaInicial>
+              <ans:horaFinal>07:19:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40316360</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>INSULINA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>23</ans:valorUnitario>
+              <ans:valorTotal>23</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
               <ans:sequencialItem>33</ans:sequencialItem>
               <ans:dataExecucao>2024-03-08</ans:dataExecucao>
               <ans:horaInicial>07:19:00</ans:horaInicial>
               <ans:horaFinal>07:19:00</ans:horaFinal>
               <ans:procedimento>
                 <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302750</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>PERFIL LIPIDICO / LIPIDOGRAMA (LIPIDIOS TOTAIS, COLESTEROL,</ans:descricaoProcedimento>
+                <ans:codigoProcedimento>40301400</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>CALCIO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>29.27</ans:valorUnitario>
-              <ans:valorTotal>29.27</ans:valorTotal>
+              <ans:valorUnitario>5.85</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
               <ans:sequencialItem>34</ans:sequencialItem>
@@ -682,8 +682,8 @@
               <ans:horaFinal>07:19:00</ans:horaFinal>
               <ans:procedimento>
                 <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302504</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>TRANSAMINASE OXALACETICA (AMINO TRANSFERASE ASPARTATO) - PES</ans:descricaoProcedimento>
+                <ans:codigoProcedimento>40301630</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>CREATININA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
@@ -697,8 +697,8 @@
               <ans:horaFinal>07:19:00</ans:horaFinal>
               <ans:procedimento>
                 <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302512</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>TRANSAMINASE PIRUVICA (AMINO TRANSFERASE DE ALANINA) - PESQU</ans:descricaoProcedimento>
+                <ans:codigoProcedimento>40302318</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>POTASSIO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
@@ -712,13 +712,13 @@
               <ans:horaFinal>07:19:00</ans:horaFinal>
               <ans:procedimento>
                 <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40301630</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>CREATININA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+                <ans:codigoProcedimento>40316270</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>FERRITINA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
+              <ans:valorUnitario>52.28</ans:valorUnitario>
+              <ans:valorTotal>52.28</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
               <ans:sequencialItem>38</ans:sequencialItem>
@@ -727,13 +727,13 @@
               <ans:horaFinal>07:19:00</ans:horaFinal>
               <ans:procedimento>
                 <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302423</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>SODIO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+                <ans:codigoProcedimento>40305570</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>PROVA DO TRH-TSH, DOSAGEM DO TSH SEM FORNECIMENTO</ans:descricaoProcedimento>
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
+              <ans:valorUnitario>35.5470</ans:valorUnitario>
+              <ans:valorTotal>35.55</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
               <ans:sequencialItem>39</ans:sequencialItem>
@@ -742,13 +742,13 @@
               <ans:horaFinal>07:19:00</ans:horaFinal>
               <ans:procedimento>
                 <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302318</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>POTASSIO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+                <ans:codigoProcedimento>40302830</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>VITAMINA D 25 HIDROXI, DOSAGEM (VITAMINA D3)</ans:descricaoProcedimento>
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
+              <ans:valorUnitario>24.67</ans:valorUnitario>
+              <ans:valorTotal>24.67</ans:valorTotal>
             </ans:procedimentoExecutado>
           </ans:procedimentosExecutados>
           <ans:valorTotal>
@@ -807,13 +807,13 @@
               <ans:horaFinal>08:09:00</ans:horaFinal>
               <ans:procedimento>
                 <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302830</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>VITAMINA D 25 HIDROXI, DOSAGEM (VITAMINA D3)</ans:descricaoProcedimento>
+                <ans:codigoProcedimento>40302075</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>HEMOGLOBINA GLICADA (A1 TOTAL) - PESQUISA E/OU DOS</ans:descricaoProcedimento>
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>24.67</ans:valorUnitario>
-              <ans:valorTotal>24.67</ans:valorTotal>
+              <ans:valorUnitario>18.8190</ans:valorUnitario>
+              <ans:valorTotal>18.82</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
               <ans:sequencialItem>41</ans:sequencialItem>
@@ -822,16 +822,76 @@
               <ans:horaFinal>08:09:00</ans:horaFinal>
               <ans:procedimento>
                 <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40301150</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>ACIDO URICO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+                <ans:codigoProcedimento>40312151</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>PROVAS DE FUNCAO HEPATICA (BILIRRUBINAS, ELETROFORESE DE PRO</ans:descricaoProcedimento>
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
+              <ans:valorUnitario>58.1298</ans:valorUnitario>
+              <ans:valorTotal>58.13</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
               <ans:sequencialItem>42</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-22</ans:dataExecucao>
+              <ans:horaInicial>08:09:00</ans:horaInicial>
+              <ans:horaFinal>08:09:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40302580</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>UREIA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>43</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-22</ans:dataExecucao>
+              <ans:horaInicial>08:09:00</ans:horaInicial>
+              <ans:horaFinal>08:09:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40302318</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>POTASSIO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>44</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-22</ans:dataExecucao>
+              <ans:horaInicial>08:09:00</ans:horaInicial>
+              <ans:horaFinal>08:09:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40311210</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>ROTINA DE URINA (CARACTERES FISICOS, ELEMENTOS ANORMAIS E SE</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>8.3640</ans:valorUnitario>
+              <ans:valorTotal>8.36</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>45</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-22</ans:dataExecucao>
+              <ans:horaInicial>08:09:00</ans:horaInicial>
+              <ans:horaFinal>08:09:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40307760</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>SIFILIS - VDRL</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>8.3640</ans:valorUnitario>
+              <ans:valorTotal>8.36</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>46</ans:sequencialItem>
               <ans:dataExecucao>2024-03-22</ans:dataExecucao>
               <ans:horaInicial>08:09:00</ans:horaInicial>
               <ans:horaFinal>08:09:00</ans:horaFinal>
@@ -842,26 +902,11 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>29.27</ans:valorUnitario>
+              <ans:valorUnitario>29.2740</ans:valorUnitario>
               <ans:valorTotal>29.27</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>43</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-22</ans:dataExecucao>
-              <ans:horaInicial>08:09:00</ans:horaInicial>
-              <ans:horaFinal>08:09:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40301630</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>CREATININA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>44</ans:sequencialItem>
+              <ans:sequencialItem>47</ans:sequencialItem>
               <ans:dataExecucao>2024-03-22</ans:dataExecucao>
               <ans:horaInicial>08:09:00</ans:horaInicial>
               <ans:horaFinal>08:09:00</ans:horaFinal>
@@ -872,41 +917,11 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
               <ans:valorTotal>5.85</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>45</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-22</ans:dataExecucao>
-              <ans:horaInicial>08:09:00</ans:horaInicial>
-              <ans:horaFinal>08:09:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302075</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>HEMOGLOBINA GLICADA (A1 TOTAL) - PESQUISA E/OU DOS</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>18.82</ans:valorUnitario>
-              <ans:valorTotal>18.82</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>46</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-22</ans:dataExecucao>
-              <ans:horaInicial>08:09:00</ans:horaInicial>
-              <ans:horaFinal>08:09:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40304361</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>HEMOGRAMA COM CONTAGEM DE PLAQUETAS OU FRACOES (ERITROGRAMA,</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>12.55</ans:valorUnitario>
-              <ans:valorTotal>12.55</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>47</ans:sequencialItem>
+              <ans:sequencialItem>48</ans:sequencialItem>
               <ans:dataExecucao>2024-03-22</ans:dataExecucao>
               <ans:horaInicial>08:09:00</ans:horaInicial>
               <ans:horaFinal>08:09:00</ans:horaFinal>
@@ -921,7 +936,52 @@
               <ans:valorTotal>62.73</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>48</ans:sequencialItem>
+              <ans:sequencialItem>49</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-22</ans:dataExecucao>
+              <ans:horaInicial>08:09:00</ans:horaInicial>
+              <ans:horaFinal>08:09:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40301150</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>ACIDO URICO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>50</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-22</ans:dataExecucao>
+              <ans:horaInicial>08:09:00</ans:horaInicial>
+              <ans:horaFinal>08:09:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40301630</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>CREATININA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>51</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-22</ans:dataExecucao>
+              <ans:horaInicial>08:09:00</ans:horaInicial>
+              <ans:horaFinal>08:09:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40304361</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>HEMOGRAMA COM CONTAGEM DE PLAQUETAS OU FRACOES (ERITROGRAMA,</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>12.5460</ans:valorUnitario>
+              <ans:valorTotal>12.55</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>52</ans:sequencialItem>
               <ans:dataExecucao>2024-03-22</ans:dataExecucao>
               <ans:horaInicial>08:09:00</ans:horaInicial>
               <ans:horaFinal>08:09:00</ans:horaFinal>
@@ -932,101 +992,11 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>29.27</ans:valorUnitario>
+              <ans:valorUnitario>29.2740</ans:valorUnitario>
               <ans:valorTotal>29.27</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>49</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-22</ans:dataExecucao>
-              <ans:horaInicial>08:09:00</ans:horaInicial>
-              <ans:horaFinal>08:09:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302318</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>POTASSIO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>50</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-22</ans:dataExecucao>
-              <ans:horaInicial>08:09:00</ans:horaInicial>
-              <ans:horaFinal>08:09:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40312151</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>PROVAS DE FUNCAO HEPATICA (BILIRRUBINAS, ELETROFORESE DE PRO</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>58.13</ans:valorUnitario>
-              <ans:valorTotal>58.13</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>51</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-22</ans:dataExecucao>
-              <ans:horaInicial>08:09:00</ans:horaInicial>
-              <ans:horaFinal>08:09:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40311210</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>ROTINA DE URINA (CARACTERES FISICOS, ELEMENTOS ANORMAIS E SE</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>8.36</ans:valorUnitario>
-              <ans:valorTotal>8.36</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>52</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-22</ans:dataExecucao>
-              <ans:horaInicial>08:09:00</ans:horaInicial>
-              <ans:horaFinal>08:09:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302423</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>SODIO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
               <ans:sequencialItem>53</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-22</ans:dataExecucao>
-              <ans:horaInicial>08:09:00</ans:horaInicial>
-              <ans:horaFinal>08:09:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40307760</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>SIFILIS - VDRL</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>8.36</ans:valorUnitario>
-              <ans:valorTotal>8.36</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>54</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-22</ans:dataExecucao>
-              <ans:horaInicial>08:09:00</ans:horaInicial>
-              <ans:horaFinal>08:09:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302580</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>UREIA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>55</ans:sequencialItem>
               <ans:dataExecucao>2024-03-22</ans:dataExecucao>
               <ans:horaInicial>08:09:00</ans:horaInicial>
               <ans:horaFinal>08:09:00</ans:horaFinal>
@@ -1037,8 +1007,38 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>35.55</ans:valorUnitario>
+              <ans:valorUnitario>35.5470</ans:valorUnitario>
               <ans:valorTotal>35.55</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>54</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-22</ans:dataExecucao>
+              <ans:horaInicial>08:09:00</ans:horaInicial>
+              <ans:horaFinal>08:09:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40302830</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>VITAMINA D 25 HIDROXI, DOSAGEM (VITAMINA D3)</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>24.6738</ans:valorUnitario>
+              <ans:valorTotal>24.67</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>55</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-22</ans:dataExecucao>
+              <ans:horaInicial>08:09:00</ans:horaInicial>
+              <ans:horaFinal>08:09:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40302423</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>SODIO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
             </ans:procedimentoExecutado>
           </ans:procedimentosExecutados>
           <ans:valorTotal>
@@ -1102,71 +1102,11 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>12.55</ans:valorUnitario>
+              <ans:valorUnitario>12.5460</ans:valorUnitario>
               <ans:valorTotal>12.55</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
               <ans:sequencialItem>57</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302423</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>SODIO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>58</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302318</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>POTASSIO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>59</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302580</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>UREIA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>60</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40301630</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>CREATININA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>61</ans:sequencialItem>
               <ans:dataExecucao>2024-03-25</ans:dataExecucao>
               <ans:horaInicial>08:40:00</ans:horaInicial>
               <ans:horaFinal>08:40:00</ans:horaFinal>
@@ -1177,131 +1117,11 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
               <ans:valorTotal>5.85</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>62</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302075</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>HEMOGLOBINA GLICADA (A1 TOTAL) - PESQUISA E/OU DOS</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>18.82</ans:valorUnitario>
-              <ans:valorTotal>18.82</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>63</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40316360</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>INSULINA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>23.00</ans:valorUnitario>
-              <ans:valorTotal>23.00</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>64</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40301400</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>CALCIO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>65</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40301931</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>FOSFORO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>66</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302237</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>MAGNESIO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>6.69</ans:valorUnitario>
-              <ans:valorTotal>6.69</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>67</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40316424</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>PTH - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>83.64</ans:valorUnitario>
-              <ans:valorTotal>83.64</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>68</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302750</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>PERFIL LIPIDICO / LIPIDOGRAMA (LIPIDIOS TOTAIS, COLESTEROL,</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>29.27</ans:valorUnitario>
-              <ans:valorTotal>29.27</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>69</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302377</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>PROTEINAS TOTAIS - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>70</ans:sequencialItem>
+              <ans:sequencialItem>58</ans:sequencialItem>
               <ans:dataExecucao>2024-03-25</ans:dataExecucao>
               <ans:horaInicial>08:40:00</ans:horaInicial>
               <ans:horaFinal>08:40:00</ans:horaFinal>
@@ -1312,86 +1132,11 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>6.27</ans:valorUnitario>
+              <ans:valorUnitario>6.2730</ans:valorUnitario>
               <ans:valorTotal>6.27</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>71</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302504</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>TRANSAMINASE OXALACETICA (AMINO TRANSFERASE ASPARTATO) - PES</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>72</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302512</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>TRANSAMINASE PIRUVICA (AMINO TRANSFERASE DE ALANINA) - PESQU</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>73</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40301885</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>FOSFATASE ALCALINA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>7.53</ans:valorUnitario>
-              <ans:valorTotal>7.53</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>74</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40301990</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>GAMA-GLUTAMIL TRANSFERASE - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>8.36</ans:valorUnitario>
-              <ans:valorTotal>8.36</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>75</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40316491</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>T4 LIVRE - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>35.55</ans:valorUnitario>
-              <ans:valorTotal>35.55</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>76</ans:sequencialItem>
+              <ans:sequencialItem>59</ans:sequencialItem>
               <ans:dataExecucao>2024-03-25</ans:dataExecucao>
               <ans:horaInicial>08:40:00</ans:horaInicial>
               <ans:horaFinal>08:40:00</ans:horaFinal>
@@ -1402,11 +1147,11 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>35.55</ans:valorUnitario>
+              <ans:valorUnitario>35.5470</ans:valorUnitario>
               <ans:valorTotal>35.55</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>77</ans:sequencialItem>
+              <ans:sequencialItem>60</ans:sequencialItem>
               <ans:dataExecucao>2024-03-25</ans:dataExecucao>
               <ans:horaInicial>08:40:00</ans:horaInicial>
               <ans:horaFinal>08:40:00</ans:horaFinal>
@@ -1417,116 +1162,11 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>35.55</ans:valorUnitario>
+              <ans:valorUnitario>35.5470</ans:valorUnitario>
               <ans:valorTotal>35.55</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>78</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40316190</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>CORTISOL - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>31.36</ans:valorUnitario>
-              <ans:valorTotal>31.36</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>79</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40301150</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>ACIDO URICO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>80</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40304639</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>TEMPO DE TROMBOPLASTINA PARCIAL ATIVADA - DETERMINACAO</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>6.27</ans:valorUnitario>
-              <ans:valorTotal>6.27</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>81</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40304620</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>TEMPO DE TROMBINA - DETERMINACAO</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>8.36</ans:valorUnitario>
-              <ans:valorTotal>8.36</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>82</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40301087</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>ACIDO FOLICO, PESQUISA E/OU DOSAGEM NOS ERITROCITOS</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>35.55</ans:valorUnitario>
-              <ans:valorTotal>35.55</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>83</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40316572</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>VITAMINA B12 - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>35.55</ans:valorUnitario>
-              <ans:valorTotal>35.55</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>84</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302830</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>VITAMINA D 25 HIDROXI, DOSAGEM (VITAMINA D3)</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>24.67</ans:valorUnitario>
-              <ans:valorTotal>24.67</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>85</ans:sequencialItem>
+              <ans:sequencialItem>61</ans:sequencialItem>
               <ans:dataExecucao>2024-03-25</ans:dataExecucao>
               <ans:horaInicial>08:40:00</ans:horaInicial>
               <ans:horaFinal>08:40:00</ans:horaFinal>
@@ -1537,41 +1177,11 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
               <ans:valorTotal>5.85</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>86</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40313328</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>ZINCO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>50.18</ans:valorUnitario>
-              <ans:valorTotal>50.18</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>87</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40301567</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>COBRE - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>50.18</ans:valorUnitario>
-              <ans:valorTotal>50.18</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>88</ans:sequencialItem>
+              <ans:sequencialItem>62</ans:sequencialItem>
               <ans:dataExecucao>2024-03-25</ans:dataExecucao>
               <ans:horaInicial>08:40:00</ans:horaInicial>
               <ans:horaFinal>08:40:00</ans:horaFinal>
@@ -1582,11 +1192,11 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>7.53</ans:valorUnitario>
+              <ans:valorUnitario>7.5276</ans:valorUnitario>
               <ans:valorTotal>7.53</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>89</ans:sequencialItem>
+              <ans:sequencialItem>63</ans:sequencialItem>
               <ans:dataExecucao>2024-03-25</ans:dataExecucao>
               <ans:horaInicial>08:40:00</ans:horaInicial>
               <ans:horaFinal>08:40:00</ans:horaFinal>
@@ -1597,26 +1207,11 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>52.28</ans:valorUnitario>
+              <ans:valorUnitario>52.2750</ans:valorUnitario>
               <ans:valorTotal>52.28</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>90</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302520</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>TRANSFERRINA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>25.09</ans:valorUnitario>
-              <ans:valorTotal>25.09</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>91</ans:sequencialItem>
+              <ans:sequencialItem>64</ans:sequencialItem>
               <ans:dataExecucao>2024-03-25</ans:dataExecucao>
               <ans:horaInicial>08:40:00</ans:horaInicial>
               <ans:horaFinal>08:40:00</ans:horaFinal>
@@ -1627,11 +1222,11 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
               <ans:valorTotal>5.85</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>92</ans:sequencialItem>
+              <ans:sequencialItem>65</ans:sequencialItem>
               <ans:dataExecucao>2024-03-25</ans:dataExecucao>
               <ans:horaInicial>08:40:00</ans:horaInicial>
               <ans:horaFinal>08:40:00</ans:horaFinal>
@@ -1642,26 +1237,11 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>28.02</ans:valorUnitario>
+              <ans:valorUnitario>28.0194</ans:valorUnitario>
               <ans:valorTotal>28.02</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>93</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40316513</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>TESTOSTERONA TOTAL - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>43.91</ans:valorUnitario>
-              <ans:valorTotal>43.91</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>94</ans:sequencialItem>
+              <ans:sequencialItem>66</ans:sequencialItem>
               <ans:dataExecucao>2024-03-25</ans:dataExecucao>
               <ans:horaInicial>08:40:00</ans:horaInicial>
               <ans:horaFinal>08:40:00</ans:horaFinal>
@@ -1676,82 +1256,52 @@
               <ans:valorTotal>62.73</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>95</ans:sequencialItem>
+              <ans:sequencialItem>67</ans:sequencialItem>
               <ans:dataExecucao>2024-03-25</ans:dataExecucao>
               <ans:horaInicial>08:40:00</ans:horaInicial>
               <ans:horaFinal>08:40:00</ans:horaFinal>
               <ans:procedimento>
                 <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40316408</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>PROGESTERONA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+                <ans:codigoProcedimento>40306968</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>HEPATITE B - HBCAC - IGM (ANTI-CORE IGM OU ACOREM) - PESQUIS</ans:descricaoProcedimento>
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>43.91</ans:valorUnitario>
-              <ans:valorTotal>43.91</ans:valorTotal>
+              <ans:valorUnitario>50.1840</ans:valorUnitario>
+              <ans:valorTotal>50.18</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>96</ans:sequencialItem>
+              <ans:sequencialItem>68</ans:sequencialItem>
               <ans:dataExecucao>2024-03-25</ans:dataExecucao>
               <ans:horaInicial>08:40:00</ans:horaInicial>
               <ans:horaFinal>08:40:00</ans:horaFinal>
               <ans:procedimento>
                 <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40316246</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>ESTRADIOL - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+                <ans:codigoProcedimento>40302318</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>POTASSIO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>41.82</ans:valorUnitario>
-              <ans:valorTotal>41.82</ans:valorTotal>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>97</ans:sequencialItem>
+              <ans:sequencialItem>69</ans:sequencialItem>
               <ans:dataExecucao>2024-03-25</ans:dataExecucao>
               <ans:horaInicial>08:40:00</ans:horaInicial>
               <ans:horaFinal>08:40:00</ans:horaFinal>
               <ans:procedimento>
                 <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40305546</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>PROVA DO LH-RH, DOSAGEM DO FSH SEM FORNECIMENTO DE</ans:descricaoProcedimento>
+                <ans:codigoProcedimento>40302750</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>PERFIL LIPIDICO / LIPIDOGRAMA (LIPIDIOS TOTAIS, COLESTEROL,</ans:descricaoProcedimento>
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>27.18</ans:valorUnitario>
-              <ans:valorTotal>27.18</ans:valorTotal>
+              <ans:valorUnitario>29.2740</ans:valorUnitario>
+              <ans:valorTotal>29.27</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>98</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40316335</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>HORMONIO LUTEINIZANTE (LH) - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>27.18</ans:valorUnitario>
-              <ans:valorTotal>27.18</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>99</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40306992</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>HEPATITE B - HBSAC (ANTI-ANTIGENO DE SUPERFICIE) - PESQUISA</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>33.46</ans:valorUnitario>
-              <ans:valorTotal>33.46</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>100</ans:sequencialItem>
+              <ans:sequencialItem>70</ans:sequencialItem>
               <ans:dataExecucao>2024-03-25</ans:dataExecucao>
               <ans:horaInicial>08:40:00</ans:horaInicial>
               <ans:horaFinal>08:40:00</ans:horaFinal>
@@ -1766,37 +1316,7 @@
               <ans:valorTotal>41.82</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>101</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40306968</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>HEPATITE B - HBCAC - IGM (ANTI-CORE IGM OU ACOREM) - PESQUIS</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>50.18</ans:valorUnitario>
-              <ans:valorTotal>50.18</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>102</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40307018</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>HEPATITE B - HBSAG (AU, ANTIGENO AUSTRALIA) - PESQUISA E/OU</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>29.27</ans:valorUnitario>
-              <ans:valorTotal>29.27</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>103</ans:sequencialItem>
+              <ans:sequencialItem>71</ans:sequencialItem>
               <ans:dataExecucao>2024-03-25</ans:dataExecucao>
               <ans:horaInicial>08:40:00</ans:horaInicial>
               <ans:horaFinal>08:40:00</ans:horaFinal>
@@ -1811,7 +1331,502 @@
               <ans:valorTotal>83.64</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
+              <ans:sequencialItem>72</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40301400</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>CALCIO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>73</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40302237</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>MAGNESIO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>6.6912</ans:valorUnitario>
+              <ans:valorTotal>6.69</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>74</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40302504</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>TRANSAMINASE OXALACETICA (AMINO TRANSFERASE ASPARTATO) - PES</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>75</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40304620</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>TEMPO DE TROMBINA - DETERMINACAO</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>8.3640</ans:valorUnitario>
+              <ans:valorTotal>8.36</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>76</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40302075</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>HEMOGLOBINA GLICADA (A1 TOTAL) - PESQUISA E/OU DOS</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>18.8190</ans:valorUnitario>
+              <ans:valorTotal>18.82</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>77</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40301885</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>FOSFATASE ALCALINA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>7.5276</ans:valorUnitario>
+              <ans:valorTotal>7.53</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>78</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40316572</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>VITAMINA B12 - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>35.5470</ans:valorUnitario>
+              <ans:valorTotal>35.55</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>79</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40302423</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>SODIO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>80</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40302377</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>PROTEINAS TOTAIS - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>81</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40301087</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>ACIDO FOLICO, PESQUISA E/OU DOSAGEM NOS ERITROCITOS</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>35.5470</ans:valorUnitario>
+              <ans:valorTotal>35.55</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>82</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40313328</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>ZINCO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>50.1840</ans:valorUnitario>
+              <ans:valorTotal>50.18</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>83</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40307018</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>HEPATITE B - HBSAG (AU, ANTIGENO AUSTRALIA) - PESQUISA E/OU</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>29.2740</ans:valorUnitario>
+              <ans:valorTotal>29.27</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>84</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40306950</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>HEPATITE B - HBCAC - IGG (ANTI-CORE IGG OU ACOREG) - PESQUIS</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>41.82</ans:valorUnitario>
+              <ans:valorTotal>41.82</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>85</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40304639</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>TEMPO DE TROMBOPLASTINA PARCIAL ATIVADA - DETERMINACAO</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>6.2730</ans:valorUnitario>
+              <ans:valorTotal>6.27</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>86</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40301567</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>COBRE - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>50.1840</ans:valorUnitario>
+              <ans:valorTotal>50.18</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>87</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40302520</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>TRANSFERRINA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>25.0920</ans:valorUnitario>
+              <ans:valorTotal>25.09</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>88</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40316246</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>ESTRADIOL - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>41.82</ans:valorUnitario>
+              <ans:valorTotal>41.82</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>89</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40305546</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>PROVA DO LH-RH, DOSAGEM DO FSH SEM FORNECIMENTO DE</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>27.1830</ans:valorUnitario>
+              <ans:valorTotal>27.18</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>90</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40316335</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>HORMONIO LUTEINIZANTE (LH) - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>27.1830</ans:valorUnitario>
+              <ans:valorTotal>27.18</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>91</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40301630</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>CREATININA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>92</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40301931</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>FOSFORO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>93</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40316424</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>PTH - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>83.64</ans:valorUnitario>
+              <ans:valorTotal>83.64</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>94</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40302512</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>TRANSAMINASE PIRUVICA (AMINO TRANSFERASE DE ALANINA) - PESQU</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>95</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40301990</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>GAMA-GLUTAMIL TRANSFERASE - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>8.3640</ans:valorUnitario>
+              <ans:valorTotal>8.36</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>96</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40316190</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>CORTISOL - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>31.3650</ans:valorUnitario>
+              <ans:valorTotal>31.36</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>97</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40301150</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>ACIDO URICO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>98</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40302830</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>VITAMINA D 25 HIDROXI, DOSAGEM (VITAMINA D3)</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>24.6738</ans:valorUnitario>
+              <ans:valorTotal>24.67</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>99</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40316408</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>PROGESTERONA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>43.9110</ans:valorUnitario>
+              <ans:valorTotal>43.91</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>100</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40316513</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>TESTOSTERONA TOTAL - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>43.9110</ans:valorUnitario>
+              <ans:valorTotal>43.91</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>101</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40306992</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>HEPATITE B - HBSAC (ANTI-ANTIGENO DE SUPERFICIE) - PESQUISA</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>33.4560</ans:valorUnitario>
+              <ans:valorTotal>33.46</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>102</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40302580</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>UREIA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>103</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40316360</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>INSULINA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>23.0010</ans:valorUnitario>
+              <ans:valorTotal>23.00</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
               <ans:sequencialItem>104</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
+              <ans:horaInicial>08:40:00</ans:horaInicial>
+              <ans:horaFinal>08:40:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40316491</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>T4 LIVRE - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>35.5470</ans:valorUnitario>
+              <ans:valorTotal>35.55</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>105</ans:sequencialItem>
               <ans:dataExecucao>2024-03-25</ans:dataExecucao>
               <ans:horaInicial>08:40:00</ans:horaInicial>
               <ans:horaFinal>08:40:00</ans:horaFinal>
@@ -1826,7 +1841,7 @@
               <ans:valorTotal>62.73</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>105</ans:sequencialItem>
+              <ans:sequencialItem>106</ans:sequencialItem>
               <ans:dataExecucao>2024-03-25</ans:dataExecucao>
               <ans:horaInicial>08:40:00</ans:horaInicial>
               <ans:horaFinal>08:40:00</ans:horaFinal>
@@ -1837,23 +1852,8 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>8.36</ans:valorUnitario>
+              <ans:valorUnitario>8.3640</ans:valorUnitario>
               <ans:valorTotal>8.36</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>106</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-25</ans:dataExecucao>
-              <ans:horaInicial>08:40:00</ans:horaInicial>
-              <ans:horaFinal>08:40:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40306950</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>HEPATITE B - HBCAC - IGG (ANTI-CORE IGG OU ACOREG) - PESQUIS</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>41.82</ans:valorUnitario>
-              <ans:valorTotal>41.82</ans:valorTotal>
             </ans:procedimentoExecutado>
           </ans:procedimentosExecutados>
           <ans:valorTotal>
@@ -1918,7 +1918,7 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>27.18</ans:valorUnitario>
+              <ans:valorUnitario>27.1830</ans:valorUnitario>
               <ans:valorTotal>27.18</ans:valorTotal>
             </ans:procedimentoExecutado>
           </ans:procedimentosExecutados>
@@ -2045,106 +2045,16 @@
               <ans:horaFinal>09:28:00</ans:horaFinal>
               <ans:procedimento>
                 <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40304361</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>HEMOGRAMA COM CONTAGEM DE PLAQUETAS OU FRACOES (ERITROGRAMA,</ans:descricaoProcedimento>
+                <ans:codigoProcedimento>40312151</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>PROVAS DE FUNCAO HEPATICA (BILIRRUBINAS, ELETROFORESE DE PRO</ans:descricaoProcedimento>
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>12.55</ans:valorUnitario>
-              <ans:valorTotal>12.55</ans:valorTotal>
+              <ans:valorUnitario>58.1298</ans:valorUnitario>
+              <ans:valorTotal>58.13</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
               <ans:sequencialItem>110</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-27</ans:dataExecucao>
-              <ans:horaInicial>09:28:00</ans:horaInicial>
-              <ans:horaFinal>09:28:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302040</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>GLICOSE - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>111</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-27</ans:dataExecucao>
-              <ans:horaInicial>09:28:00</ans:horaInicial>
-              <ans:horaFinal>09:28:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302075</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>HEMOGLOBINA GLICADA (A1 TOTAL) - PESQUISA E/OU DOS</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>18.82</ans:valorUnitario>
-              <ans:valorTotal>18.82</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>112</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-27</ans:dataExecucao>
-              <ans:horaInicial>09:28:00</ans:horaInicial>
-              <ans:horaFinal>09:28:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40316130</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>ANTIGENO ESPECIFICO PROSTATICO LIVRE (PSA LIVRE) - PESQUISA</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>54.37</ans:valorUnitario>
-              <ans:valorTotal>54.37</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>113</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-27</ans:dataExecucao>
-              <ans:horaInicial>09:28:00</ans:horaInicial>
-              <ans:horaFinal>09:28:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40316149</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>ANTIGENO ESPECIFICO PROSTATICO TOTAL (PSA) - PESQUISA E/OU D</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>62.73</ans:valorUnitario>
-              <ans:valorTotal>62.73</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>114</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-27</ans:dataExecucao>
-              <ans:horaInicial>09:28:00</ans:horaInicial>
-              <ans:horaFinal>09:28:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302580</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>UREIA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>115</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-27</ans:dataExecucao>
-              <ans:horaInicial>09:28:00</ans:horaInicial>
-              <ans:horaFinal>09:28:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40301630</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>CREATININA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>116</ans:sequencialItem>
               <ans:dataExecucao>2024-03-27</ans:dataExecucao>
               <ans:horaInicial>09:28:00</ans:horaInicial>
               <ans:horaFinal>09:28:00</ans:horaFinal>
@@ -2155,41 +2065,11 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
               <ans:valorTotal>5.85</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>117</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-27</ans:dataExecucao>
-              <ans:horaInicial>09:28:00</ans:horaInicial>
-              <ans:horaFinal>09:28:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302318</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>POTASSIO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>118</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-27</ans:dataExecucao>
-              <ans:horaInicial>09:28:00</ans:horaInicial>
-              <ans:horaFinal>09:28:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40316513</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>TESTOSTERONA TOTAL - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>43.91</ans:valorUnitario>
-              <ans:valorTotal>43.91</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>119</ans:sequencialItem>
+              <ans:sequencialItem>111</ans:sequencialItem>
               <ans:dataExecucao>2024-03-27</ans:dataExecucao>
               <ans:horaInicial>09:28:00</ans:horaInicial>
               <ans:horaFinal>09:28:00</ans:horaFinal>
@@ -2204,67 +2084,127 @@
               <ans:valorTotal>62.73</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>120</ans:sequencialItem>
+              <ans:sequencialItem>112</ans:sequencialItem>
               <ans:dataExecucao>2024-03-27</ans:dataExecucao>
               <ans:horaInicial>09:28:00</ans:horaInicial>
               <ans:horaFinal>09:28:00</ans:horaFinal>
               <ans:procedimento>
                 <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302750</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>PERFIL LIPIDICO / LIPIDOGRAMA (LIPIDIOS TOTAIS, COLESTEROL,</ans:descricaoProcedimento>
+                <ans:codigoProcedimento>40316149</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>ANTIGENO ESPECIFICO PROSTATICO TOTAL (PSA) - PESQUISA E/OU D</ans:descricaoProcedimento>
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>29.27</ans:valorUnitario>
-              <ans:valorTotal>29.27</ans:valorTotal>
+              <ans:valorUnitario>62.73</ans:valorUnitario>
+              <ans:valorTotal>62.73</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>121</ans:sequencialItem>
+              <ans:sequencialItem>113</ans:sequencialItem>
               <ans:dataExecucao>2024-03-27</ans:dataExecucao>
               <ans:horaInicial>09:28:00</ans:horaInicial>
               <ans:horaFinal>09:28:00</ans:horaFinal>
               <ans:procedimento>
                 <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40312151</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>PROVAS DE FUNCAO HEPATICA (BILIRRUBINAS, ELETROFORESE DE PRO</ans:descricaoProcedimento>
+                <ans:codigoProcedimento>40302075</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>HEMOGLOBINA GLICADA (A1 TOTAL) - PESQUISA E/OU DOS</ans:descricaoProcedimento>
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>58.13</ans:valorUnitario>
-              <ans:valorTotal>58.13</ans:valorTotal>
+              <ans:valorUnitario>18.8190</ans:valorUnitario>
+              <ans:valorTotal>18.82</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>122</ans:sequencialItem>
+              <ans:sequencialItem>114</ans:sequencialItem>
               <ans:dataExecucao>2024-03-27</ans:dataExecucao>
               <ans:horaInicial>09:28:00</ans:horaInicial>
               <ans:horaFinal>09:28:00</ans:horaFinal>
               <ans:procedimento>
                 <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40301150</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>ACIDO URICO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+                <ans:codigoProcedimento>40302580</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>UREIA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
               <ans:valorTotal>5.85</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>123</ans:sequencialItem>
+              <ans:sequencialItem>115</ans:sequencialItem>
               <ans:dataExecucao>2024-03-27</ans:dataExecucao>
               <ans:horaInicial>09:28:00</ans:horaInicial>
               <ans:horaFinal>09:28:00</ans:horaFinal>
               <ans:procedimento>
                 <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40305570</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>PROVA DO TRH-TSH, DOSAGEM DO TSH SEM FORNECIMENTO</ans:descricaoProcedimento>
+                <ans:codigoProcedimento>40302040</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>GLICOSE - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>35.55</ans:valorUnitario>
-              <ans:valorTotal>35.55</ans:valorTotal>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>124</ans:sequencialItem>
+              <ans:sequencialItem>116</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-27</ans:dataExecucao>
+              <ans:horaInicial>09:28:00</ans:horaInicial>
+              <ans:horaFinal>09:28:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40316130</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>ANTIGENO ESPECIFICO PROSTATICO LIVRE (PSA LIVRE) - PESQUISA</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>54.3660</ans:valorUnitario>
+              <ans:valorTotal>54.37</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>117</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-27</ans:dataExecucao>
+              <ans:horaInicial>09:28:00</ans:horaInicial>
+              <ans:horaFinal>09:28:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40301630</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>CREATININA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>118</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-27</ans:dataExecucao>
+              <ans:horaInicial>09:28:00</ans:horaInicial>
+              <ans:horaFinal>09:28:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40304361</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>HEMOGRAMA COM CONTAGEM DE PLAQUETAS OU FRACOES (ERITROGRAMA,</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>12.5460</ans:valorUnitario>
+              <ans:valorTotal>12.55</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>119</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-27</ans:dataExecucao>
+              <ans:horaInicial>09:28:00</ans:horaInicial>
+              <ans:horaFinal>09:28:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40316513</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>TESTOSTERONA TOTAL - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>43.9110</ans:valorUnitario>
+              <ans:valorTotal>43.91</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>120</ans:sequencialItem>
               <ans:dataExecucao>2024-03-27</ans:dataExecucao>
               <ans:horaInicial>09:28:00</ans:horaInicial>
               <ans:horaFinal>09:28:00</ans:horaFinal>
@@ -2275,11 +2215,11 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>35.55</ans:valorUnitario>
+              <ans:valorUnitario>35.5470</ans:valorUnitario>
               <ans:valorTotal>35.55</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>125</ans:sequencialItem>
+              <ans:sequencialItem>121</ans:sequencialItem>
               <ans:dataExecucao>2024-03-27</ans:dataExecucao>
               <ans:horaInicial>09:28:00</ans:horaInicial>
               <ans:horaFinal>09:28:00</ans:horaFinal>
@@ -2290,8 +2230,68 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>8.36</ans:valorUnitario>
+              <ans:valorUnitario>8.3640</ans:valorUnitario>
               <ans:valorTotal>8.36</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>122</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-27</ans:dataExecucao>
+              <ans:horaInicial>09:28:00</ans:horaInicial>
+              <ans:horaFinal>09:28:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40302318</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>POTASSIO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>123</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-27</ans:dataExecucao>
+              <ans:horaInicial>09:28:00</ans:horaInicial>
+              <ans:horaFinal>09:28:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40302750</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>PERFIL LIPIDICO / LIPIDOGRAMA (LIPIDIOS TOTAIS, COLESTEROL,</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>29.2740</ans:valorUnitario>
+              <ans:valorTotal>29.27</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>124</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-27</ans:dataExecucao>
+              <ans:horaInicial>09:28:00</ans:horaInicial>
+              <ans:horaFinal>09:28:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40305570</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>PROVA DO TRH-TSH, DOSAGEM DO TSH SEM FORNECIMENTO</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>35.5470</ans:valorUnitario>
+              <ans:valorTotal>35.55</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>125</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-27</ans:dataExecucao>
+              <ans:horaInicial>09:28:00</ans:horaInicial>
+              <ans:horaFinal>09:28:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40301150</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>ACIDO URICO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
             </ans:procedimentoExecutado>
           </ans:procedimentosExecutados>
           <ans:valorTotal>
@@ -2351,61 +2351,16 @@
               <ans:horaFinal>09:39:00</ans:horaFinal>
               <ans:procedimento>
                 <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40304361</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>HEMOGRAMA COM CONTAGEM DE PLAQUETAS OU FRACOES (ERITROGRAMA,</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>12.55</ans:valorUnitario>
-              <ans:valorTotal>12.55</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>127</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-28</ans:dataExecucao>
-              <ans:horaInicial>09:39:00</ans:horaInicial>
-              <ans:horaFinal>09:39:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302040</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>GLICOSE - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>128</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-28</ans:dataExecucao>
-              <ans:horaInicial>09:39:00</ans:horaInicial>
-              <ans:horaFinal>09:39:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302075</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>HEMOGLOBINA GLICADA (A1 TOTAL) - PESQUISA E/OU DOS</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>18.82</ans:valorUnitario>
-              <ans:valorTotal>18.82</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>129</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-28</ans:dataExecucao>
-              <ans:horaInicial>09:39:00</ans:horaInicial>
-              <ans:horaFinal>09:39:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
                 <ans:codigoProcedimento>40302580</ans:codigoProcedimento>
                 <ans:descricaoProcedimento>UREIA - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
               <ans:valorTotal>5.85</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>130</ans:sequencialItem>
+              <ans:sequencialItem>127</ans:sequencialItem>
               <ans:dataExecucao>2024-03-28</ans:dataExecucao>
               <ans:horaInicial>09:39:00</ans:horaInicial>
               <ans:horaFinal>09:39:00</ans:horaFinal>
@@ -2416,26 +2371,11 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
               <ans:valorTotal>5.85</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>131</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-28</ans:dataExecucao>
-              <ans:horaInicial>09:39:00</ans:horaInicial>
-              <ans:horaFinal>09:39:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302423</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>SODIO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>132</ans:sequencialItem>
+              <ans:sequencialItem>128</ans:sequencialItem>
               <ans:dataExecucao>2024-03-28</ans:dataExecucao>
               <ans:horaInicial>09:39:00</ans:horaInicial>
               <ans:horaFinal>09:39:00</ans:horaFinal>
@@ -2446,71 +2386,11 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
               <ans:valorTotal>5.85</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>133</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-28</ans:dataExecucao>
-              <ans:horaInicial>09:39:00</ans:horaInicial>
-              <ans:horaFinal>09:39:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40302750</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>PERFIL LIPIDICO / LIPIDOGRAMA (LIPIDIOS TOTAIS, COLESTEROL,</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>29.27</ans:valorUnitario>
-              <ans:valorTotal>29.27</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>134</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-28</ans:dataExecucao>
-              <ans:horaInicial>09:39:00</ans:horaInicial>
-              <ans:horaFinal>09:39:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40301150</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>ACIDO URICO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>5.85</ans:valorUnitario>
-              <ans:valorTotal>5.85</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>135</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-28</ans:dataExecucao>
-              <ans:horaInicial>09:39:00</ans:horaInicial>
-              <ans:horaFinal>09:39:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40312151</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>PROVAS DE FUNCAO HEPATICA (BILIRRUBINAS, ELETROFORESE DE PRO</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>58.13</ans:valorUnitario>
-              <ans:valorTotal>58.13</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>136</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-28</ans:dataExecucao>
-              <ans:horaInicial>09:39:00</ans:horaInicial>
-              <ans:horaFinal>09:39:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>40305570</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>PROVA DO TRH-TSH, DOSAGEM DO TSH SEM FORNECIMENTO</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>35.55</ans:valorUnitario>
-              <ans:valorTotal>35.55</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>137</ans:sequencialItem>
+              <ans:sequencialItem>129</ans:sequencialItem>
               <ans:dataExecucao>2024-03-28</ans:dataExecucao>
               <ans:horaInicial>09:39:00</ans:horaInicial>
               <ans:horaFinal>09:39:00</ans:horaFinal>
@@ -2521,11 +2401,11 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>35.55</ans:valorUnitario>
+              <ans:valorUnitario>35.5470</ans:valorUnitario>
               <ans:valorTotal>35.55</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>138</ans:sequencialItem>
+              <ans:sequencialItem>130</ans:sequencialItem>
               <ans:dataExecucao>2024-03-28</ans:dataExecucao>
               <ans:horaInicial>09:39:00</ans:horaInicial>
               <ans:horaFinal>09:39:00</ans:horaFinal>
@@ -2540,7 +2420,7 @@
               <ans:valorTotal>62.73</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>139</ans:sequencialItem>
+              <ans:sequencialItem>131</ans:sequencialItem>
               <ans:dataExecucao>2024-03-28</ans:dataExecucao>
               <ans:horaInicial>09:39:00</ans:horaInicial>
               <ans:horaFinal>09:39:00</ans:horaFinal>
@@ -2551,11 +2431,11 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>29.27</ans:valorUnitario>
+              <ans:valorUnitario>29.2740</ans:valorUnitario>
               <ans:valorTotal>29.27</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>140</ans:sequencialItem>
+              <ans:sequencialItem>132</ans:sequencialItem>
               <ans:dataExecucao>2024-03-28</ans:dataExecucao>
               <ans:horaInicial>09:39:00</ans:horaInicial>
               <ans:horaFinal>09:39:00</ans:horaFinal>
@@ -2570,7 +2450,97 @@
               <ans:valorTotal>83.64</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>141</ans:sequencialItem>
+              <ans:sequencialItem>133</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-28</ans:dataExecucao>
+              <ans:horaInicial>09:39:00</ans:horaInicial>
+              <ans:horaFinal>09:39:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40304361</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>HEMOGRAMA COM CONTAGEM DE PLAQUETAS OU FRACOES (ERITROGRAMA,</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>12.5460</ans:valorUnitario>
+              <ans:valorTotal>12.55</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>134</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-28</ans:dataExecucao>
+              <ans:horaInicial>09:39:00</ans:horaInicial>
+              <ans:horaFinal>09:39:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40302423</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>SODIO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>135</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-28</ans:dataExecucao>
+              <ans:horaInicial>09:39:00</ans:horaInicial>
+              <ans:horaFinal>09:39:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40302075</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>HEMOGLOBINA GLICADA (A1 TOTAL) - PESQUISA E/OU DOS</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>18.8190</ans:valorUnitario>
+              <ans:valorTotal>18.82</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>136</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-28</ans:dataExecucao>
+              <ans:horaInicial>09:39:00</ans:horaInicial>
+              <ans:horaFinal>09:39:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40301150</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>ACIDO URICO - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>137</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-28</ans:dataExecucao>
+              <ans:horaInicial>09:39:00</ans:horaInicial>
+              <ans:horaFinal>09:39:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40302750</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>PERFIL LIPIDICO / LIPIDOGRAMA (LIPIDIOS TOTAIS, COLESTEROL,</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>29.2740</ans:valorUnitario>
+              <ans:valorTotal>29.27</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>138</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-28</ans:dataExecucao>
+              <ans:horaInicial>09:39:00</ans:horaInicial>
+              <ans:horaFinal>09:39:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40305570</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>PROVA DO TRH-TSH, DOSAGEM DO TSH SEM FORNECIMENTO</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>35.5470</ans:valorUnitario>
+              <ans:valorTotal>35.55</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>139</ans:sequencialItem>
               <ans:dataExecucao>2024-03-28</ans:dataExecucao>
               <ans:horaInicial>09:39:00</ans:horaInicial>
               <ans:horaFinal>09:39:00</ans:horaFinal>
@@ -2581,11 +2551,11 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>8.36</ans:valorUnitario>
+              <ans:valorUnitario>8.3640</ans:valorUnitario>
               <ans:valorTotal>8.36</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>142</ans:sequencialItem>
+              <ans:sequencialItem>140</ans:sequencialItem>
               <ans:dataExecucao>2024-03-28</ans:dataExecucao>
               <ans:horaInicial>09:39:00</ans:horaInicial>
               <ans:horaFinal>09:39:00</ans:horaFinal>
@@ -2596,8 +2566,38 @@
               </ans:procedimento>
               <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
               <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>8.36</ans:valorUnitario>
+              <ans:valorUnitario>8.3640</ans:valorUnitario>
               <ans:valorTotal>8.36</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>141</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-28</ans:dataExecucao>
+              <ans:horaInicial>09:39:00</ans:horaInicial>
+              <ans:horaFinal>09:39:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40302040</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>GLICOSE - PESQUISA E/OU DOSAGEM</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>5.8548</ans:valorUnitario>
+              <ans:valorTotal>5.85</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>142</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-28</ans:dataExecucao>
+              <ans:horaInicial>09:39:00</ans:horaInicial>
+              <ans:horaFinal>09:39:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>40312151</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>PROVAS DE FUNCAO HEPATICA (BILIRRUBINAS, ELETROFORESE DE PRO</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>1</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>58.1298</ans:valorUnitario>
+              <ans:valorTotal>58.13</ans:valorTotal>
             </ans:procedimentoExecutado>
           </ans:procedimentosExecutados>
           <ans:valorTotal>
@@ -2738,36 +2738,6 @@
               <ans:horaFinal>17:12:00</ans:horaFinal>
               <ans:procedimento>
                 <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>41501128</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>PAQUIMETRIA ULTRASSONICA - MONOCULAR</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>2</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>54</ans:valorUnitario>
-              <ans:valorTotal>108</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>146</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-28</ans:dataExecucao>
-              <ans:horaInicial>17:12:00</ans:horaInicial>
-              <ans:horaFinal>17:12:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
-                <ans:codigoProcedimento>41301080</ans:codigoProcedimento>
-                <ans:descricaoProcedimento>CERATOSCOPIA COMPUTADORIZADA - MONOCULAR</ans:descricaoProcedimento>
-              </ans:procedimento>
-              <ans:quantidadeExecutada>2</ans:quantidadeExecutada>
-              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
-              <ans:valorUnitario>90</ans:valorUnitario>
-              <ans:valorTotal>180</ans:valorTotal>
-            </ans:procedimentoExecutado>
-            <ans:procedimentoExecutado>
-              <ans:sequencialItem>147</ans:sequencialItem>
-              <ans:dataExecucao>2024-03-28</ans:dataExecucao>
-              <ans:horaInicial>17:12:00</ans:horaInicial>
-              <ans:horaFinal>17:12:00</ans:horaFinal>
-              <ans:procedimento>
-                <ans:codigoTabela>22</ans:codigoTabela>
                 <ans:codigoProcedimento>41301269</ans:codigoProcedimento>
                 <ans:descricaoProcedimento>MICROSCOPIA ESPECULAR DE CORNEA - MONOCULAR</ans:descricaoProcedimento>
               </ans:procedimento>
@@ -2777,7 +2747,22 @@
               <ans:valorTotal>252</ans:valorTotal>
             </ans:procedimentoExecutado>
             <ans:procedimentoExecutado>
-              <ans:sequencialItem>148</ans:sequencialItem>
+              <ans:sequencialItem>146</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-28</ans:dataExecucao>
+              <ans:horaInicial>17:12:00</ans:horaInicial>
+              <ans:horaFinal>17:12:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>41501128</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>PAQUIMETRIA ULTRASSONICA - MONOCULAR</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>2</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>54</ans:valorUnitario>
+              <ans:valorTotal>108</ans:valorTotal>
+            </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>147</ans:sequencialItem>
               <ans:dataExecucao>2024-03-28</ans:dataExecucao>
               <ans:horaInicial>17:12:00</ans:horaInicial>
               <ans:horaFinal>17:12:00</ans:horaFinal>
@@ -2791,6 +2776,21 @@
               <ans:valorUnitario>28.80</ans:valorUnitario>
               <ans:valorTotal>57.60</ans:valorTotal>
             </ans:procedimentoExecutado>
+            <ans:procedimentoExecutado>
+              <ans:sequencialItem>148</ans:sequencialItem>
+              <ans:dataExecucao>2024-03-28</ans:dataExecucao>
+              <ans:horaInicial>17:12:00</ans:horaInicial>
+              <ans:horaFinal>17:12:00</ans:horaFinal>
+              <ans:procedimento>
+                <ans:codigoTabela>22</ans:codigoTabela>
+                <ans:codigoProcedimento>41301080</ans:codigoProcedimento>
+                <ans:descricaoProcedimento>CERATOSCOPIA COMPUTADORIZADA - MONOCULAR</ans:descricaoProcedimento>
+              </ans:procedimento>
+              <ans:quantidadeExecutada>2</ans:quantidadeExecutada>
+              <ans:reducaoAcrescimo>1.00</ans:reducaoAcrescimo>
+              <ans:valorUnitario>90</ans:valorUnitario>
+              <ans:valorTotal>180</ans:valorTotal>
+            </ans:procedimentoExecutado>
           </ans:procedimentosExecutados>
           <ans:valorTotal>
             <ans:valorProcedimentos>606.60</ans:valorProcedimentos>
@@ -2801,6 +2801,6 @@
     </ans:loteGuias>
   </ans:prestadorParaOperadora>
   <ans:epilogo>
-    <ans:hash>BB46E87B623BF3C6468844261DAF22A5</ans:hash>
+    <ans:hash>0EFEA7A98069DDF584949E6F23297E6F</ans:hash>
   </ans:epilogo>
 </ans:mensagemTISS>
