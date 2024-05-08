@@ -8,8 +8,14 @@ import os
 import re
 import platform
 import difflib
+import logging
 
 app = Flask(__name__)
+
+# Configurar o logger
+logging.basicConfig(filename='app.log', level=logging.INFO,
+                    format='%(asctime)s %(levelname)s: %(message)s',
+                    datefmt='%Y-%m-%d %H:%M:%S')
 
 UPLOAD_FOLDER = 'uploads'
 
@@ -26,9 +32,11 @@ if not os.path.exists(UPLOAD_FOLDER):
 # Função para corrigir o XML
 def corrigir_xml(arquivo):
     try:
+        nome_arquivo = arquivo.filename
         xml_data = arquivo.read()
         parser = etree.XMLParser(recover=True)  # Permitir a recuperação de erros
         tree = etree.parse(BytesIO(xml_data), parser=parser)
+        logging.info(f"XML corrigido com sucesso. Arquivo original: {nome_arquivo}")
         return etree.tostring(tree.getroot(), encoding='utf-8', method='xml').decode("utf-8")
     except etree.XMLSyntaxError:
         xml_data = arquivo.read()
@@ -96,6 +104,7 @@ def index():
             gravar_arquivo(xml_string_modificado, 'exemplo_modificado.xml')
             
             tiss_version = find_padrao_tag('exemplo_modificado.xml')
+            logging.info(f"Versao do TISS encontrada: {tiss_version}")
             
             # Identificar as linhas alteradas
             diff_lines = difflib.unified_diff(xml_string.splitlines(), xml_string_modificado.splitlines(), lineterm='')
@@ -131,7 +140,6 @@ def corrigir():
     linhas_alteradas = [line[3:] for line in diff_lines if line.startswith('+')]
     
     return render_template('corrigir_xml.html', linhas_alteradas=linhas_alteradas, xml_string=xml_string_modificado)
-
 
 
 @app.route('/download_xml')
