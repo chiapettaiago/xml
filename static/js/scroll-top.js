@@ -10,7 +10,7 @@ $(document).ready(function(){
 
     // Rolagem suave ao clicar no botão
     $('#btnVoltarTopo').click(function(){
-        $('html, body').animate({scrollTop : 0},800);
+        $('html, body').animate({scrollTop : 0},1500);
         return false;
     });
 });
