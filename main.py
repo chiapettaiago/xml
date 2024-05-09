@@ -81,6 +81,7 @@ def validar_tiss(xml_path):
         return validar_xml_contra_xsd(xml_path, xsd_path)
     except Exception as e:
         return f"Erro ao validar o XML contra o XSD: {e}"
+    
 
 # Função para listar as versões do TISS disponíveis
 def listar_versoes_tiss(diretorio_schema):
