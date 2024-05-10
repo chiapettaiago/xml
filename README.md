@@ -6,7 +6,7 @@ Este é um projeto desenvolvido para validar e corrigir arquivos XML do padrão 
 
 2. **Corrigir Erros Comuns no XML**: A ferramenta analisa o arquivo XML e realiza as seguintes correções automáticas:
    - Corrige números com mais de duas casas decimais, arredondando-os para duas casas.
-   - Atualiza o valor total geral (tag `<valorTotalGeral>`) para corresponder à soma dos valores totais das guias.
+   - Atualiza o valor total geral (tag `<valorTotalGeral>`) para corresponder à soma dos valores totais das guias nas versões abaixo do `TISS 4.00.00`.
 
 3. **Identificar Linhas Alteradas**: Ao fazer a correção do XML, o projeto identifica as linhas que foram alteradas e as exibe em uma página de visualização do XML modificado.
 

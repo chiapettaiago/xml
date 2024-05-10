@@ -14,4 +14,4 @@ COPY . /app
 RUN pip3 install --no-cache-dir -r requirements.txt
 
 # Comando para iniciar o aplicativo
-CMD ["python3", "./main.py"]
+CMD ["python3", "./app.py"]

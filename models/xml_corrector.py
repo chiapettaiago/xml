@@ -14,8 +14,8 @@ class XMLCorrector:
                 # Soma todos os valores nas tags 'valorTotal' dentro da mesma 'ans:guia'
                 valor_total = sum(float(elem.text) for elem in guia.iter() if elem.tag.endswith('valorTotal') and elem.text.strip())
                 
-                # Verifica se a tag 'valorTotalGeral' existe
-                valor_total_geral = next((elem for elem in guia.iter() if elem.tag.endswith('valorTotalGeral')), None)
+                # Atualiza o valor da tag 'valorTotalGeral' se ela existir
+                valor_total_geral = guia.find('valorTotalGeral')
                 if valor_total_geral is not None:
                     valor_total_geral.text = "{:.2f}".format(valor_total)
                 
