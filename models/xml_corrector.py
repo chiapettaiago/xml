@@ -7,18 +7,18 @@ class XMLCorrector:
         try:
             root = etree.fromstring(xml_string)
             
-            # Encontra todas as tags 'ans:guiaSP-SADT'
-            guias_sadt = [elem for elem in root.iter() if elem.tag.endswith('guiaSP-SADT')]
+            # Procura pelas tags 'ans:guiaSP-SADT' e, caso não encontre, procura por 'ans:guiasTISS'
+            guias = [elem for elem in root.iter() if elem.tag.endswith('guiaSP-SADT') or elem.tag.endswith('guiasTISS')]
             
-            for guia_sadt in guias_sadt:
-                # Soma todos os valores nas tags 'valorTotal' dentro da mesma 'ans:guiaSP-SADT'
-                valor_total = sum(float(elem.text) for elem in guia_sadt.iter() if elem.tag.endswith('valorTotal') and elem.text.strip())
+            for guia in guias:
+                # Soma todos os valores nas tags 'valorTotal' dentro da mesma 'ans:guia'
+                valor_total = sum(float(elem.text) for elem in guia.iter() if elem.tag.endswith('valorTotal') and elem.text.strip())
                 
-                # Atualiza o valor na tag 'valorTotalGeral'
-                valor_total_geral = next((elem for elem in guia_sadt.iter() if elem.tag.endswith('valorTotalGeral')), None)
+                # Verifica se a tag 'valorTotalGeral' existe
+                valor_total_geral = next((elem for elem in guia.iter() if elem.tag.endswith('valorTotalGeral')), None)
                 if valor_total_geral is not None:
                     valor_total_geral.text = "{:.2f}".format(valor_total)
-            
+                
             # Corrige os números de 4 casas decimais
             for element in root.iter():
                 if element.text:
@@ -32,6 +32,6 @@ class XMLCorrector:
     def _corrigir_numeros_4_casas(element):
         if re.match(r'^\d+(\.\d+)?$', element.text):
             # Verifica se o texto contém apenas números
-            if element.tag.endswith('valorUnitario') or element.tag.endswith('valorTotal') or element.tag.endswith('valorProcedimentos') or element.tag.endswith('valorTotalGeral') or element.tag.endswith('reducaoAcrescimo'):
+            if element.tag.endswith('valorUnitario') or element.tag.endswith('valorTotal') or element.tag.endswith('valorProcedimentos') or element.tag.endswith('reducaoAcrescimo'):
                 # Arredonda para duas casas decimais se estiver nas tags mencionadas
                 element.text = "{:.2f}".format(float(element.text))
