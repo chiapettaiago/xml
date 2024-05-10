@@ -108,7 +108,10 @@ def corrigir():
 
 def download_xml():
     try:
-        arquivo_modificado = open(os.path.join(MODIFIED_XML_FOLDER), 'exemplo_modificado.xml', 'rb')
-        return send_file(arquivo_modificado, as_attachment=True, mimetype='application/xml', download_name='exemplo_modificado.xml')
-    except FileNotFoundError:
-        return "Arquivo XML não encontrado."
+        arquivo_modificado = os.path.join(MODIFIED_XML_FOLDER, 'exemplo_modificado.xml')
+        if os.path.exists(arquivo_modificado):
+            return send_file(arquivo_modificado, as_attachment=True, mimetype='application/xml', download_name='exemplo_modificado.xml')
+        else:
+            return "Arquivo XML não encontrado."
+    except (FileNotFoundError, IOError, OSError) as e:
+        return f"Erro ao baixar o arquivo XML: {str(e)}"
