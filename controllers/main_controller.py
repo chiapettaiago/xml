@@ -5,7 +5,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from controllers.xml_controller import corrigir_xml, contar_guias, extrair_numero_lote, extrair_valor_total, gravar_arquivo
 from controllers.tiss_controller import SCHEMA_FOLDER
 from controllers.validation_controller import validar_xml_contra_xsd, find_padrao_tag
-from models.xml_corrector import XMLCorrector
+from models.xml_corrector import XMLParameters
 from lxml import etree
 from controllers.xml_controller import find_padrao_tag
 import difflib
@@ -37,7 +37,7 @@ def index():
             # Corrigir e modificar o XML
             xml_string = corrigir_xml(arquivo)
             gravar_arquivo(xml_string, os.path.join(ORIGINAL_XML_FOLDER, 'exemplo_original.xml'))
-            xml_string_modificado = XMLCorrector.modificar_xml(xml_string)
+            xml_string_modificado = XMLParameters.modificar_xml(xml_string)
             gravar_arquivo(xml_string_modificado, os.path.join(MODIFIED_XML_FOLDER, 'exemplo_modificado.xml'))
             
             tiss_version = find_padrao_tag(os.path.join(MODIFIED_XML_FOLDER, 'exemplo_modificado.xml'))
@@ -76,7 +76,7 @@ def corrigir():
     tree = etree.parse(os.path.join(ORIGINAL_XML_FOLDER, 'exemplo_original.xml'))
     xml_bytes = etree.tostring(tree, pretty_print=True)
     xml_string = xml_bytes.decode('utf-8')
-    xml_string_modificado = XMLCorrector.modificar_xml(xml_string)
+    xml_string_modificado = XMLParameters.modificar_xml(xml_string)
 
     # Identificar as linhas alteradas
     diff = difflib.unified_diff(xml_string.splitlines(), xml_string_modificado.splitlines(), lineterm='')
