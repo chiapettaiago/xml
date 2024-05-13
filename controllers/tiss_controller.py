@@ -35,3 +35,12 @@ def listar_versoes_tiss(diretorio_schema):
         if match:
             versoes.add(match.group(1).replace('_', '.'))
     return sorted(versoes)
+
+def tiss_inferior_a_4(versao):
+    versoes_validas = ["3.05.00", "3.03.02", "3.03.03", "3.02.02", "3.04.00", "3.03.01", "3.03.00"]
+    return versao in versoes_validas
+
+def tiss_superior_a_4(versao):
+    versoes_validas = ["4.01.00", "4.00.00"]
+    return versao in versoes_validas
+

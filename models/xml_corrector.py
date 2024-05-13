@@ -1,5 +1,6 @@
 import re
 from lxml import etree
+from controllers.tiss_controller import tiss_inferior_a_4, tiss_superior_a_4
 
 class XMLParameters:
     @staticmethod
@@ -12,7 +13,7 @@ class XMLParameters:
             tiss_version = root.find('.//ans:Padrao', namespace)
             
             
-            if tiss_version.text == "3.05.00":
+            if tiss_inferior_a_4(tiss_version.text):
                 # Corrige os números de 4 casas decimais
                 for element in root.iter():
                     if element.text and re.match(r'^\d+(\.\d+)?$', element.text):
@@ -27,7 +28,7 @@ class XMLParameters:
                     valor_total = sum(float(elem.text) for elem in guia_sadt.iter() if elem.tag.endswith('valorTotal') and elem.text.strip())
                     valor_total_geral.text = "{:.2f}".format(valor_total)
                     
-            elif tiss_version.text == "4.01.00":
+            elif tiss_superior_a_4(tiss_version.text):
                # Apenas arredonda os números de 4 casas decimais para 2 casas decimais
                 for element in root.iter():
                     if element.text and re.match(r'^\d+(\.\d{4,})$', element.text):
