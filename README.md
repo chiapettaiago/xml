@@ -37,6 +37,7 @@ Este é um projeto desenvolvido para validar e corrigir arquivos XML do padrão 
 - Adicionado suporte a todas as versões do tiss na verificação de arredondamento
 - Melhorias no padão MVC
 - Melhorias na leitura e organização do código.
+- Imagem docker atualizada do Ubuntu 22.04 LTS para o Ubuntu 24.04 LTS
 
 ## Instalação e Utilização
 
@@ -44,7 +45,7 @@ Para utilizar o validador, siga os passos abaixo:
 
 1. Clone o repositório para sua máquina local.
 2. Instale as dependências necessárias utilizando `pip install -r requirements.txt`.
-3. Execute o validador com o comando `python main.py`.
+3. Execute o validador com o comando `python app.py`.
 
 Ou utilize a imagem docker disponível no Docker Hub:
 
