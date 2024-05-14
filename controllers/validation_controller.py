@@ -41,6 +41,32 @@ def find_padrao_tag(xml_file):
     padrao_tag = root.find('.//ans:Padrao', namespace)
     
     return padrao_tag.text
+
+def find_operadora(xml_file):
+    # Carregar o arquivo XML
+    tree = etree.parse(xml_file)
+    root = tree.getroot()
+    
+    # Obter o namespace a partir do elemento raiz
+    namespace = {'ans': root.tag.split('}')[0][1:]}
+    
+    # Procurar pela tag <ans:Padrao>3.05.00</ans:Padrao>
+    operadora = root.find('.//ans:registroANS', namespace)
+    
+    return operadora.text
+
+def find_transacao(xml_file):
+    # Carregar o arquivo XML
+    tree = etree.parse(xml_file)
+    root = tree.getroot()
+    
+    # Obter o namespace a partir do elemento raiz
+    namespace = {'ans': root.tag.split('}')[0][1:]}
+    
+    # Procurar pela tag <ans:Padrao>3.05.00</ans:Padrao>
+    tipo = root.find('.//ans:tipoTransacao', namespace)
+    
+    return tipo.text
     
 def validar_xml_contra_xsd(xml_path, xsd_path, tiss_version):
     try:

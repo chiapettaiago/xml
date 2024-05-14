@@ -32,7 +32,11 @@ Este é um projeto desenvolvido para validar e corrigir arquivos XML do padrão 
 - difflib (biblioteca para comparação de strings)
 - MVC (Model-View-Controller) para melhor organização e manutenção de código
 
-## Dados da atualização mais recente:
+## Histórico de atualizações:
+14/05/2024:
+- Correção de bugs
+- Sistema agora também traz informações sobre operadora e tipo de transação do XML.
+
 13/05/2024:
 - Adicionado suporte a todas as versões do tiss na verificação de arredondamento
 - Melhorias no padão MVC
