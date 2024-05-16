@@ -33,6 +33,11 @@ Este é um projeto desenvolvido para validar e corrigir arquivos XML do padrão 
 - MVC (Model-View-Controller) para melhor organização e manutenção de código
 
 ## Histórico de atualizações:
+16/05/2024:
+- Correção de bugs
+- Incluído suporte a guias de resumo de internação (ainda em fase de validação)
+- Cálculo do somatório solucionado nas guias de resumo de internação (sendo validado)
+- Melhorias na interface
 14/05/2024:
 - Correção de bugs
 - Sistema agora também traz informações sobre operadora e tipo de transação do XML.

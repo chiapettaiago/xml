@@ -2,7 +2,7 @@ from flask import Flask, render_template, request,send_file
 import os
 import sys
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-from controllers.xml_controller import corrigir_xml, contar_guias, extrair_numero_lote, extrair_valor_total, gravar_arquivo
+from controllers.xml_controller import corrigir_xml, contar_guias, extrair_numero_lote, extrair_valor_total, gravar_arquivo, tipo_guia
 from controllers.tiss_controller import SCHEMA_FOLDER
 from controllers.validation_controller import validar_xml_contra_xsd, find_padrao_tag, find_operadora, find_transacao
 from models.xml_corrector import XMLParameters
@@ -54,12 +54,14 @@ def index():
             operadora = find_operadora(os.path.join(MODIFIED_XML_FOLDER, 'exemplo_modificado.xml'))
             
             transacao = find_transacao(os.path.join(MODIFIED_XML_FOLDER, 'exemplo_modificado.xml'))
+
+            tipo_de_guia = tipo_guia(os.path.join(MODIFIED_XML_FOLDER, 'exemplo_modificado.xml'))
                 
             # Identificar as linhas alteradas
             diff_lines = difflib.unified_diff(xml_string.splitlines(), xml_string_modificado.splitlines(), lineterm='')
             linhas_alteradas = [line[3:] for line in diff_lines if line.startswith('+')]
             # Redirecionar para a página de exibição do XML
-            return render_template('ler_xml.html', xml_string=xml_string_modificado, linhas_alteradas=linhas_alteradas, num_guias=num_guias, valor_total=valor_total_modificado, numero_lote=numero_lote, tiss_version=tiss_version, operadora=operadora, transacao=transacao)
+            return render_template('ler_xml.html', xml_string=xml_string_modificado, linhas_alteradas=linhas_alteradas, tipo_de_guia=tipo_de_guia, num_guias=num_guias, valor_total=valor_total_modificado, numero_lote=numero_lote, tiss_version=tiss_version, operadora=operadora, transacao=transacao)
     return render_template('index.html')
 
 def validar_tiss():

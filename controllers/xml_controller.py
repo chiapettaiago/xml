@@ -31,7 +31,7 @@ def contar_guias(arquivo_xml):
             # Contar o número de elementos <ans:guiaSP-SADT>
             num_guias = len(tree.findall('.//ans:guiaSP-SADT', namespaces={'ans': 'http://www.ans.gov.br/padroes/tiss/schemas'}))
             if num_guias == 0:
-                num_guias = len(tree.findall('.//ans:guiasTISS', namespaces={'ans': 'http://www.ans.gov.br/padroes/tiss/schemas'}))
+                num_guias = len(tree.findall('.//ans:guiaResumoInternacao', namespaces={'ans': 'http://www.ans.gov.br/padroes/tiss/schemas'}))
         else:
             num_guias = len(tree.findall('.//ans:cabecalhoGuia', namespaces={'ans': 'http://www.ans.gov.br/padroes/tiss/schemas'}))
         
@@ -40,6 +40,25 @@ def contar_guias(arquivo_xml):
     except etree.XMLSyntaxError:
         print("Erro: O arquivo não é um XML válido.")
         return None
+    
+
+def tipo_guia(arquivo_xml):
+    try:
+        # Fazer o parsing do XML
+        tree = etree.parse(arquivo_xml)
+        
+        guia = len(tree.findall('.//ans:guiaSP-SADT', namespaces={'ans': 'http://www.ans.gov.br/padroes/tiss/schemas'}))
+        guia_tipo = "Guia de SP-SADT"
+        if guia == 0:
+            guia = len(tree.findall('.//ans:guiaResumoInternacao', namespaces={'ans': 'http://www.ans.gov.br/padroes/tiss/schemas'}))
+            guia_tipo = "Guia de Resumo de Internação"
+            
+        return guia_tipo
+    except etree.XMLSyntaxError:
+        print("Erro: O arquivo não é um XML válido.")
+        return None
+        
+
     
 def extrair_numero_lote(arquivo_xml):
     try:
