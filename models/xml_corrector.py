@@ -20,13 +20,25 @@ class XMLParameters:
                         XMLParameters._corrigir_numeros_4_casas(element)
                 
                 guias_sadt = [elem for elem in root.iter() if elem.tag.endswith('guiaSP-SADT')]
+                guias_tiss = [elem for elem in root.iter() if elem.tag.endswith('guiasTISS')]
+                
+                
+                if guias_tiss:
+                    for guia_tiss in guias_tiss:
+                        valor_total_geral = guia_tiss.find('.//ans:valorTotalGeral', namespace)
+                        
+                        # Soma todos os valores nas tags 'valorTotal' dentro da mesma 'ans:guiaSP-SADT'
+                        valor_total = sum(float(elem.text) for elem in guia_tiss.iter() if elem.tag.endswith('valorTotal') and elem.text.strip())
+                        valor_total_geral.text = "{:.2f}".format(valor_total)
 
-                for guia_sadt in guias_sadt:
-                    valor_total_geral = guia_sadt.find('.//ans:valorTotalGeral', namespace)
+                else:
+                    for guia_sadt in guias_sadt:
+                        valor_total_geral = guia_sadt.find('.//ans:valorTotalGeral', namespace)
+                        
+                        # Soma todos os valores nas tags 'valorTotal' dentro da mesma 'ans:guiaSP-SADT'
+                        valor_total = sum(float(elem.text) for elem in guia_sadt.iter() if elem.tag.endswith('valorTotal') and elem.text.strip())
+                        valor_total_geral.text = "{:.2f}".format(valor_total)
                     
-                    # Soma todos os valores nas tags 'valorTotal' dentro da mesma 'ans:guiaSP-SADT'
-                    valor_total = sum(float(elem.text) for elem in guia_sadt.iter() if elem.tag.endswith('valorTotal') and elem.text.strip())
-                    valor_total_geral.text = "{:.2f}".format(valor_total)
                     
             elif tiss_superior_a_4(tiss_version.text):
                # Apenas arredonda os números de 4 casas decimais para 2 casas decimais

@@ -30,6 +30,8 @@ def contar_guias(arquivo_xml):
         if tiss_version < '4.00.00':
             # Contar o número de elementos <ans:guiaSP-SADT>
             num_guias = len(tree.findall('.//ans:guiaSP-SADT', namespaces={'ans': 'http://www.ans.gov.br/padroes/tiss/schemas'}))
+            if num_guias == 0:
+                num_guias = len(tree.findall('.//ans:guiasTISS', namespaces={'ans': 'http://www.ans.gov.br/padroes/tiss/schemas'}))
         else:
             num_guias = len(tree.findall('.//ans:cabecalhoGuia', namespaces={'ans': 'http://www.ans.gov.br/padroes/tiss/schemas'}))
         
