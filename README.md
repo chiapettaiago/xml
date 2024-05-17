@@ -38,6 +38,7 @@ Este é um projeto desenvolvido para validar e corrigir arquivos XML do padrão 
 - Incluído suporte a guias de resumo de internação (ainda em fase de validação)
 - Cálculo do somatório solucionado nas guias de resumo de internação (sendo validado)
 - Melhorias na interface
+
 14/05/2024:
 - Correção de bugs
 - Sistema agora também traz informações sobre operadora e tipo de transação do XML.
