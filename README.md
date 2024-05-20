@@ -33,21 +33,13 @@ Este é um projeto desenvolvido para validar e corrigir arquivos XML do padrão 
 - MVC (Model-View-Controller) para melhor organização e manutenção de código
 
 ## Histórico de atualizações:
-16/05/2024:
-- Correção de bugs
-- Incluído suporte a guias de resumo de internação (ainda em fase de validação)
-- Cálculo do somatório solucionado nas guias de resumo de internação (sendo validado)
-- Melhorias na interface
 
-14/05/2024:
-- Correção de bugs
-- Sistema agora também traz informações sobre operadora e tipo de transação do XML.
+Para o log detalhando de alterações acesse o link abaixo:
 
-13/05/2024:
-- Adicionado suporte a todas as versões do tiss na verificação de arredondamento
-- Melhorias no padão MVC
-- Melhorias na leitura e organização do código.
-- Imagem docker atualizada do Ubuntu 22.04 LTS para o Ubuntu 24.04 LTS
+```
+https://iagochiapetta-gtic.notion.site/Validador-de-XML-altera-es-21616c536d674099bb50938cc91a06be?pvs=4
+
+```
 
 ## Instalação e Utilização
 
