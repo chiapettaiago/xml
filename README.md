@@ -34,7 +34,7 @@ Este é um projeto desenvolvido para validar e corrigir arquivos XML do padrão 
 
 ## Histórico de atualizações:
 
-Para o log detalhando de alterações acesse o link abaixo:
+Para o log detalhado de alterações acesse o link abaixo:
 
 ```
 https://iagochiapetta-gtic.notion.site/Validador-de-XML-altera-es-21616c536d674099bb50938cc91a06be?pvs=4
