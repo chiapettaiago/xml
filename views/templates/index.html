@@ -38,6 +38,33 @@
             <i class="fa-solid fa-circle-half-stroke fa-bounce"></i>
         </button>
     </div>
+    <!-- Botão de Informação do Sistema -->
+    <div class="position-fixed bottom-0 end-0 mb-3 me-3">
+        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#infoModal">
+            <i class="fa-solid fa-question"></i>
+        </button>
+    </div>
+
+    <!-- Modal de Informação do Sistema -->
+    <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="infoModalLabel">Informações do Sistema</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Insira as informações do sistema aqui -->
+                    <h4 class="text-center">Validador de XML HCTCO</h4>
+                    <p class="mt-3">Versão do sistema: 1.0 (beta)</p>
+                    <p>Desenvolvedor: Iago Filgueiras Chiapetta</p>
+                    <p><a class="link-opacity-100" href="/version">Notas de Versão</a></p>
+                    <!-- Adicione mais informações conforme necessário -->
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script>
         function submitForm() {
             document.getElementById('xmlForm').submit();

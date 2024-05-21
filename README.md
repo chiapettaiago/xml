@@ -62,6 +62,3 @@ docker run -p 5000:5000 chiapettaiago/xml:latest
 ```
 
 Após isso basta digitar http://localhost:5000 no seu navegador e o validador xml vai abrir.
-
-
-

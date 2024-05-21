@@ -32,8 +32,18 @@ class XMLParameters:
                             valor_total_geral.text = XMLParameters._format_decimal(valor_total)
 
                 elif guias_resumo:
-                    for guia_resumo in guias_resumo:
-                        valor_total_geral = guia_resumo.find('.//ans:valorTotalGeral', namespace)
+                    for guia in guias_resumo:
+                        # Para cada guia de resumo, procurar pelas tags de valorUnitario e reducaoAcrescimo
+                        for procedimento in guia.findall('.//ans:procedimentosExecutados', namespace):
+                            valor_unitario = procedimento.find('.//ans:valorUnitario', namespace)
+                            reducao_acrescimo = procedimento.find('.//ans:reducaoAcrescimo', namespace)
+                            valor_total = procedimento.find('.//ans:valorTotal', namespace)
+                            
+                            if valor_unitario is not None and reducao_acrescimo is not None and valor_total is not None:
+                                # Multiplicar valorUnitario por reducaoAcrescimo e atualizar valorTotal
+                                valor_calculado = (Decimal(valor_unitario.text) * Decimal(reducao_acrescimo.text)).quantize(Decimal('0.0001'), rounding=ROUND_HALF_UP)
+                                valor_total.text = str(valor_calculado)
+                                
 
             elif tiss_superior_a_4(tiss_version.text):
                 # Apenas arredonda os números de 4 casas decimais para 2 casas decimais

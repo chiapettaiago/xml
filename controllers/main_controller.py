@@ -121,3 +121,6 @@ def download_xml():
             return "Arquivo XML não encontrado."
     except (FileNotFoundError, IOError, OSError) as e:
         return f"Erro ao baixar o arquivo XML: {str(e)}"
+    
+def version():
+    return render_template('versao.html')
