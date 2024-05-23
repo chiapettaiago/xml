@@ -33,17 +33,35 @@ class XMLParameters:
 
                 elif guias_resumo:
                     for guia in guias_resumo:
-                        # Para cada guia de resumo, procurar pelas tags de valorUnitario e reducaoAcrescimo
-                        for procedimento in guia.findall('.//ans:procedimentosExecutados', namespace):
-                            valor_unitario = procedimento.find('.//ans:valorUnitario', namespace)
-                            reducao_acrescimo = procedimento.find('.//ans:reducaoAcrescimo', namespace)
-                            valor_total = procedimento.find('.//ans:valorTotal', namespace)
-                            
+                        soma_valor_total = Decimal('0.00')
+                        # Para cada guia de resumo, procurar pelas tags de valorTotal
+                        for procedimento in guia.findall('.//ans:procedimentosExecutados//ans:valorTotal', namespace):
+                            soma_valor_total += Decimal(procedimento.text)
+
+                        # Atualize o valor total na tag 'valorProcedimentos' dentro de 'ans:valorTotal'
+                        valor_procedimentos = guia.find('.//ans:valorProcedimentos', namespace)
+                        if valor_procedimentos is not None:
+                            valor_procedimentos.text = XMLParameters._format_decimal(soma_valor_total)
+                        
+                        for servico in guia.findall('.//ans:servicosExecutados', namespace):
+                            valor_unitario = servico.find('.//ans:valorUnitario', namespace)
+                            reducao_acrescimo = servico.find('.//ans:reducaoAcrescimo', namespace)
+                            valor_total = servico.find('.//ans:valorTotal', namespace)
+                                           
                             if valor_unitario is not None and reducao_acrescimo is not None and valor_total is not None:
                                 # Multiplicar valorUnitario por reducaoAcrescimo e atualizar valorTotal
-                                valor_calculado = (Decimal(valor_unitario.text) * Decimal(reducao_acrescimo.text)).quantize(Decimal('0.0001'), rounding=ROUND_HALF_UP)
-                                valor_total.text = str(valor_calculado)
-                                
+                                valor_calculado = (Decimal(valor_unitario.text) * Decimal(reducao_acrescimo.text))
+                                valor_calculado_formatado = round(valor_calculado, 2)
+                                valor_total.text = str(valor_calculado_formatado)
+                        
+                        # Somar valores específicos e atualizar valorTotalGeral
+                        tags_para_somar = ['valorProcedimentos', 'valorDiarias', 'valorTaxasAlugueis', 
+                                           'valorMateriais', 'valorMedicamentos', 'valorOPME', 'valorGasesMedicinais']
+                        total_geral = sum(Decimal(guia.find(f'.//ans:{tag}', namespace).text) for tag in tags_para_somar)
+                        
+                        valor_total_geral = guia.find('.//ans:valorTotalGeral', namespace)
+                        if valor_total_geral is not None:
+                            valor_total_geral.text = XMLParameters._format_decimal(total_geral)
 
             elif tiss_superior_a_4(tiss_version.text):
                 # Apenas arredonda os números de 4 casas decimais para 2 casas decimais
