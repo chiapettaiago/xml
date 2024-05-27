@@ -1,10 +1,12 @@
 from controllers.main_controller import index, validar_tiss, corrigir, download_xml, version
-from controllers.tiss_controller import SCHEMA_FOLDER
+from controllers.schema_controller import SCHEMA_FOLDER
+from controllers.session_controller import secret_key
 import logging
 import os
 from flask import Flask
 
 app = Flask(__name__, template_folder='views/templates')
+app.secret_key = secret_key
 
 # Configurar o logger
 logging.basicConfig(filename='app.log', level=logging.INFO,

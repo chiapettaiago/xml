@@ -1,7 +1,7 @@
 import re
 from decimal import Decimal, ROUND_HALF_UP
 from lxml import etree
-from controllers.tiss_controller import tiss_inferior_a_4, tiss_superior_a_4
+from controllers.schema_controller import tiss_inferior_a_4, tiss_superior_a_4
 
 class XMLParameters:
     @staticmethod

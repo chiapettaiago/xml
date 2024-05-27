@@ -20,6 +20,10 @@ def corrigir_xml(arquivo):
         xml_data = '<?xml version="1.0"?>' + xml_data
         return xml_data
     
+def nome_xml(arquivo):
+    nome_arquivo = arquivo.filename
+    return nome_arquivo
+    
 def contar_guias(arquivo_xml):
     try:
         # Fazer o parsing do XML

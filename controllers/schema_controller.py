@@ -3,7 +3,7 @@ import re
 import platform
 import os
 from controllers.validation_controller import validar_xml_contra_xsd
-from controllers.xml_controller import find_padrao_tag
+from controllers.info_xml_controller import find_padrao_tag
 
 
 if platform.system() == 'Windows':

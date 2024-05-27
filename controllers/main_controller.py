@@ -1,17 +1,20 @@
-from flask import Flask, render_template, request,send_file
+from flask import Flask, render_template, request,send_file, flash, redirect
 import os
 import sys
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-from controllers.xml_controller import corrigir_xml, contar_guias, extrair_numero_lote, extrair_valor_total, gravar_arquivo, tipo_guia
-from controllers.tiss_controller import SCHEMA_FOLDER
+from controllers.info_xml_controller import corrigir_xml, contar_guias, extrair_numero_lote, extrair_valor_total, gravar_arquivo, tipo_guia, nome_xml
+from controllers.schema_controller import SCHEMA_FOLDER
 from controllers.validation_controller import validar_xml_contra_xsd, find_padrao_tag, find_operadora, find_transacao
 from models.criterios_correcao import XMLParameters
+from controllers.session_controller import secret_key
 from lxml import etree
-from controllers.xml_controller import find_padrao_tag
+from controllers.info_xml_controller import find_padrao_tag
 import difflib
 import logging
 
+
 app = Flask(__name__)
+app.secret_key = secret_key
 
 # Configurar o logger
 logging.basicConfig(filename='app.log', level=logging.INFO,
@@ -34,8 +37,13 @@ def index():
     if request.method == 'POST':
         arquivo = request.files['arquivo']
         if arquivo:
+            # Verificar se o arquivo é um XML
+            if not arquivo.filename.lower().endswith('.xml'):
+                flash('O arquivo enviado não é um XML. Envie um arquivo com a extensão .xml')
+                return redirect(request.url)
             # Corrigir e modificar o XML
             xml_string = corrigir_xml(arquivo)
+            nome_arquivo = nome_xml(arquivo)
             gravar_arquivo(xml_string, os.path.join(ORIGINAL_XML_FOLDER, 'exemplo_original.xml'))
             xml_string_modificado = XMLParameters.modificar_xml(xml_string)
             gravar_arquivo(xml_string_modificado, os.path.join(MODIFIED_XML_FOLDER, 'exemplo_modificado.xml'))
@@ -61,7 +69,7 @@ def index():
             diff_lines = difflib.unified_diff(xml_string.splitlines(), xml_string_modificado.splitlines(), lineterm='')
             linhas_alteradas = [line[3:] for line in diff_lines if line.startswith('+')]
             # Redirecionar para a página de exibição do XML
-            return render_template('ler_xml.html', xml_string=xml_string_modificado, linhas_alteradas=linhas_alteradas, tipo_de_guia=tipo_de_guia, num_guias=num_guias, valor_total=valor_total_modificado, numero_lote=numero_lote, tiss_version=tiss_version, operadora=operadora, transacao=transacao)
+            return render_template('ler_xml.html', xml_string=xml_string_modificado, linhas_alteradas=linhas_alteradas, tipo_de_guia=tipo_de_guia, num_guias=num_guias, nome_arquivo=nome_arquivo, valor_total=valor_total_modificado, numero_lote=numero_lote, tiss_version=tiss_version, operadora=operadora, transacao=transacao)
     return render_template('index.html')
 
 def validar_tiss():
