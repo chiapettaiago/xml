@@ -120,4 +120,4 @@ def validar_xml_contra_xsd(xml_path, xsd_path, tiss_version):
     except etree.XMLSchemaError as e:
         return f"Erro ao validar o XML: {e}"
     except Exception as e:
-        return f"Erro desconhecido ao validar o XML: {e}. TISS {tiss_version}"
+        return f"Erro {e}. TISS {tiss_version}"

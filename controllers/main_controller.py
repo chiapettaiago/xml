@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request,send_file, flash, redirect
+from flask import Flask, render_template, request,send_file, flash, redirect, request, url_for
 import os
 import sys
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
@@ -56,8 +56,8 @@ def index():
             numero_lote = extrair_numero_lote(os.path.join(MODIFIED_XML_FOLDER, 'exemplo_modificado.xml'))
             
             valor_total = extrair_valor_total(os.path.join(MODIFIED_XML_FOLDER, 'exemplo_modificado.xml'))
-            
-            valor_total_modificado = round(valor_total, 2)
+            if valor_total is not None:
+                valor_total_modificado = round(valor_total, 2)
             
             operadora = find_operadora(os.path.join(MODIFIED_XML_FOLDER, 'exemplo_modificado.xml'))
             
@@ -129,6 +129,29 @@ def download_xml():
             return "Arquivo XML não encontrado."
     except (FileNotFoundError, IOError, OSError) as e:
         return f"Erro ao baixar o arquivo XML: {str(e)}"
+    
+
+def alterar_cbos():
+    # Obtém o valor inserido no input outroCbos
+    novo_cbos = request.form['outroCbos']
+    
+    arquivo_modificado = os.path.join(MODIFIED_XML_FOLDER, 'exemplo_modificado.xml')
+
+    # Carrega o arquivo XML
+    tree = etree.parse(arquivo_modificado)
+    root = tree.getroot()
+
+    # Define o namespace
+    namespace = {'ans': 'http://www.ans.gov.br/padroes/tiss/schemas'}
+
+    # Encontra todas as ocorrências de ans:CBOS e altera o valor
+    for cbos in root.findall('.//ans:CBOS', namespace):
+        cbos.text = novo_cbos
+
+    # Salva as alterações de volta no arquivo XML
+    tree.write(arquivo_modificado)
+
+    return redirect(url_for('corrigir'))
     
 def version():
     return render_template('versao.html')

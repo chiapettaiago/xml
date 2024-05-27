@@ -1,4 +1,4 @@
-from controllers.main_controller import index, validar_tiss, corrigir, download_xml, version
+from controllers.main_controller import index, validar_tiss, corrigir, download_xml, version, alterar_cbos
 from controllers.schema_controller import SCHEMA_FOLDER
 from controllers.session_controller import secret_key
 import logging
@@ -24,6 +24,7 @@ app.route('/', methods=['GET', 'POST'])(index)
 app.route('/validar_tiss', methods=['GET', 'POST'])(validar_tiss)
 app.route('/corrigir_xml', methods=['GET', 'POST'])(corrigir)
 app.route('/download_xml')(download_xml)
+app.route('/alterar_cbos', methods=['POST'])(alterar_cbos)
 app.route('/version')(version)
 
 if __name__ == '__main__':
