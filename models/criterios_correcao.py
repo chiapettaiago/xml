@@ -14,74 +14,55 @@ class XMLParameters:
             tiss_version = root.find('.//ans:Padrao', namespace)
 
             if tiss_inferior_a_4(tiss_version.text):
-                # Corrige os números de 4 casas decimais
                 for element in root.iter():
                     if element.text and re.match(r'^\d+(\.\d{4,})$', element.text):
-                        XMLParameters._corrigir_numeros_4_casas(element)
+                        if re.match(r'^\d+(\.\d+)?$', element.text):
+                            if element.tag.endswith('valorUnitario') or element.tag.endswith('valorTotal') or element.tag.endswith('valorProcedimentos') or element.tag.endswith('reducaoAcrescimo'):
+                                element.text = str(Decimal(element.text).quantize(Decimal('0.01'), rounding=ROUND_HALF_UP))
 
                 guias_sadt = [elem for elem in root.iter() if elem.tag.endswith('guiaSP-SADT')]
                 guias_resumo = [elem for elem in root.iter() if elem.tag.endswith('guiaResumoInternacao')]
-
+                
+                #Critérios para guias de sadt
                 if guias_sadt:
                     for guia_sadt in guias_sadt:
                         valor_total_geral = guia_sadt.find('.//ans:valorTotalGeral', namespace)
                         if valor_total_geral is not None:
-                            # Soma todos os valores nas tags 'valorTotal' dentro da mesma 'ans:guiaSP-SADT'
                             valor_total = sum(Decimal(elem.text) for elem in guia_sadt.iter() if elem.tag.endswith('valorTotal') and elem.text.strip())
-                            # Atualiza com o valor total antes do arredondamento
-                            valor_total_geral.text = XMLParameters._format_decimal(valor_total)
+                            valor_total_geral.text = str(valor_total.quantize(Decimal('0.01'), rounding=ROUND_HALF_UP))
 
+                #Critérios para guias de resumo
                 elif guias_resumo:
                     for guia in guias_resumo:
                         soma_valor_total = Decimal('0.00')
-                        # Para cada guia de resumo, procurar pelas tags de valorTotal
                         for procedimento in guia.findall('.//ans:procedimentosExecutados//ans:valorTotal', namespace):
                             soma_valor_total += Decimal(procedimento.text)
 
-                        # Atualize o valor total na tag 'valorProcedimentos' dentro de 'ans:valorTotal'
                         valor_procedimentos = guia.find('.//ans:valorProcedimentos', namespace)
                         if valor_procedimentos is not None:
-                            valor_procedimentos.text = XMLParameters._format_decimal(soma_valor_total)
-                        
+                            valor_procedimentos.text = str(soma_valor_total.quantize(Decimal('0.01'), rounding=ROUND_HALF_UP))
+
                         for servico in guia.findall('.//ans:servicosExecutados', namespace):
                             valor_unitario = servico.find('.//ans:valorUnitario', namespace)
                             reducao_acrescimo = servico.find('.//ans:reducaoAcrescimo', namespace)
                             valor_total = servico.find('.//ans:valorTotal', namespace)
                                            
                             if valor_unitario is not None and reducao_acrescimo is not None and valor_total is not None:
-                                # Multiplicar valorUnitario por reducaoAcrescimo e atualizar valorTotal
-                                valor_calculado = (Decimal(valor_unitario.text) * Decimal(reducao_acrescimo.text))
-                                valor_calculado_formatado = round(valor_calculado, 2)
-                                valor_total.text = str(valor_calculado_formatado)
+                                valor_calculado = Decimal(valor_unitario.text) * Decimal(reducao_acrescimo.text)
+                                valor_total.text = str(valor_calculado.quantize(Decimal('0.01'), rounding=ROUND_HALF_UP))
                         
-                        # Somar valores específicos e atualizar valorTotalGeral
-                        tags_para_somar = ['valorProcedimentos', 'valorDiarias', 'valorTaxasAlugueis', 
-                                           'valorMateriais', 'valorMedicamentos', 'valorOPME', 'valorGasesMedicinais']
+                        tags_para_somar = ['valorProcedimentos', 'valorDiarias', 'valorTaxasAlugueis', 'valorMateriais', 'valorMedicamentos', 'valorOPME', 'valorGasesMedicinais']
                         total_geral = sum(Decimal(guia.find(f'.//ans:{tag}', namespace).text) for tag in tags_para_somar)
                         
                         valor_total_geral = guia.find('.//ans:valorTotalGeral', namespace)
-                        if valor_total_geral is not None:
-                            valor_total_geral.text = XMLParameters._format_decimal(total_geral)
+                        if valor_total_geral.text is not None:
+                            valor_total_geral.text = str(total_geral.quantize(Decimal('0.01'), rounding=ROUND_HALF_UP))
 
             elif tiss_superior_a_4(tiss_version.text):
-                # Apenas arredonda os números de 4 casas decimais para 2 casas decimais
                 for element in root.iter():
                     if element.text and re.match(r'^\d+(\.\d{4,})$', element.text):
-                        element.text = XMLParameters._format_decimal(Decimal(element.text))
+                        element.text = str(Decimal(element.text).quantize(Decimal('0.01'), rounding=ROUND_HALF_UP))
 
             return etree.tostring(root, encoding='utf-8', method='xml').decode("utf-8")
         except etree.XMLSyntaxError:
             return "Erro XML: XML inválido."
-
-    @staticmethod
-    def _corrigir_numeros_4_casas(element):
-        # Verifica se o texto contém apenas números
-        if re.match(r'^\d+(\.\d+)?$', element.text):
-            # Arredonda para duas casas decimais se estiver nas tags mencionadas
-            if element.tag.endswith('valorUnitario') or element.tag.endswith('valorTotal') or element.tag.endswith('valorProcedimentos') or element.tag.endswith('reducaoAcrescimo'):
-                element.text = XMLParameters._format_decimal(Decimal(element.text))
-
-    @staticmethod
-    def _format_decimal(value):
-        # Arredonda corretamente para duas casas decimais com ROUND_HALF_UP
-        return str(value.quantize(Decimal('0.01'), rounding=ROUND_HALF_UP))

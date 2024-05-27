@@ -5,7 +5,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from controllers.xml_controller import corrigir_xml, contar_guias, extrair_numero_lote, extrair_valor_total, gravar_arquivo, tipo_guia
 from controllers.tiss_controller import SCHEMA_FOLDER
 from controllers.validation_controller import validar_xml_contra_xsd, find_padrao_tag, find_operadora, find_transacao
-from models.xml_corrector import XMLParameters
+from models.criterios_correcao import XMLParameters
 from lxml import etree
 from controllers.xml_controller import find_padrao_tag
 import difflib
