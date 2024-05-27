@@ -1,24 +1,6 @@
 # Função para corrigir o XML
 from lxml import etree
-import logging
-from io import BytesIO
 
-def corrigir_xml(arquivo):
-    try:
-        nome_arquivo = arquivo.filename
-        xml_data = arquivo.read()
-        parser = etree.XMLParser(recover=True)  # Permitir a recuperação de erros
-        tree = etree.parse(BytesIO(xml_data), parser=parser)
-        logging.info(f"XML corrigido com sucesso. Arquivo original: {nome_arquivo}")
-        return etree.tostring(tree.getroot(), encoding='utf-8', method='xml').decode("utf-8")
-    except etree.XMLSyntaxError:
-        xml_data = arquivo.read()
-        xml_data = xml_data.decode("utf-8")
-        pos = xml_data.find('<')
-        if pos > 0:
-            xml_data = xml_data[pos:]
-        xml_data = '<?xml version="1.0"?>' + xml_data
-        return xml_data
     
 def nome_xml(arquivo):
     nome_arquivo = arquivo.filename

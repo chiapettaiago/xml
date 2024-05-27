@@ -2,9 +2,9 @@ from flask import Flask, render_template, request,send_file, flash, redirect
 import os
 import sys
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-from controllers.info_xml_controller import corrigir_xml, contar_guias, extrair_numero_lote, extrair_valor_total, gravar_arquivo, tipo_guia, nome_xml
+from controllers.info_xml_controller import contar_guias, extrair_numero_lote, extrair_valor_total, gravar_arquivo, tipo_guia, nome_xml
 from controllers.schema_controller import SCHEMA_FOLDER
-from controllers.validation_controller import validar_xml_contra_xsd, find_padrao_tag, find_operadora, find_transacao
+from controllers.validation_controller import validar_xml_contra_xsd, find_padrao_tag, find_operadora, find_transacao, corrigir_xml
 from models.criterios_correcao import XMLParameters
 from controllers.session_controller import secret_key
 from lxml import etree

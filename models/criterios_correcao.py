@@ -36,8 +36,9 @@ class XMLParameters:
                     for guia in guias_resumo:
                         soma_valor_total = Decimal('0.00')
                         for procedimento in guia.findall('.//ans:procedimentosExecutados//ans:valorTotal', namespace):
-                            soma_valor_total += Decimal(procedimento.text)
-
+                            if procedimento is not None and procedimento.text:
+                                soma_valor_total += Decimal(procedimento.text)
+                        
                         valor_procedimentos = guia.find('.//ans:valorProcedimentos', namespace)
                         if valor_procedimentos is not None:
                             valor_procedimentos.text = str(soma_valor_total.quantize(Decimal('0.01'), rounding=ROUND_HALF_UP))
@@ -46,16 +47,26 @@ class XMLParameters:
                             valor_unitario = servico.find('.//ans:valorUnitario', namespace)
                             reducao_acrescimo = servico.find('.//ans:reducaoAcrescimo', namespace)
                             valor_total = servico.find('.//ans:valorTotal', namespace)
-                                           
-                            if valor_unitario is not None and reducao_acrescimo is not None and valor_total is not None:
+                                        
+                            if (valor_unitario is not None and valor_unitario.text and
+                                reducao_acrescimo is not None and reducao_acrescimo.text and
+                                valor_total is not None):
                                 valor_calculado = Decimal(valor_unitario.text) * Decimal(reducao_acrescimo.text)
                                 valor_total.text = str(valor_calculado.quantize(Decimal('0.01'), rounding=ROUND_HALF_UP))
                         
-                        tags_para_somar = ['valorProcedimentos', 'valorDiarias', 'valorTaxasAlugueis', 'valorMateriais', 'valorMedicamentos', 'valorOPME', 'valorGasesMedicinais']
-                        total_geral = sum(Decimal(guia.find(f'.//ans:{tag}', namespace).text) for tag in tags_para_somar)
+                        tags_para_somar = [
+                            'valorProcedimentos', 'valorDiarias', 'valorTaxasAlugueis',
+                            'valorMateriais', 'valorMedicamentos', 'valorOPME', 'valorGasesMedicinais'
+                        ]
+                        
+                        total_geral = Decimal('0.00')
+                        for tag in tags_para_somar:
+                            elemento = guia.find(f'.//ans:{tag}', namespace)
+                            if elemento is not None and elemento.text:
+                                total_geral += Decimal(elemento.text)
                         
                         valor_total_geral = guia.find('.//ans:valorTotalGeral', namespace)
-                        if valor_total_geral.text is not None:
+                        if valor_total_geral is not None:
                             valor_total_geral.text = str(total_geral.quantize(Decimal('0.01'), rounding=ROUND_HALF_UP))
 
             elif tiss_superior_a_4(tiss_version.text):

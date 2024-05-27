@@ -2,6 +2,8 @@ from lxml import etree
 import os
 from urllib.parse import unquote
 import re
+import logging
+from io import BytesIO
 
 class SchemaResolver(etree.Resolver):
     def __init__(self, schema_path):
@@ -67,6 +69,23 @@ def find_transacao(xml_file):
     tipo = root.find('.//ans:tipoTransacao', namespace)
     
     return tipo.text
+
+def corrigir_xml(arquivo):
+    try:
+        nome_arquivo = arquivo.filename
+        xml_data = arquivo.read()
+        parser = etree.XMLParser(recover=True)  # Permitir a recuperação de erros
+        tree = etree.parse(BytesIO(xml_data), parser=parser)
+        logging.info(f"XML corrigido com sucesso. Arquivo original: {nome_arquivo}")
+        return etree.tostring(tree.getroot(), encoding='utf-8', method='xml').decode("utf-8")
+    except etree.XMLSyntaxError:
+        xml_data = arquivo.read()
+        xml_data = xml_data.decode("utf-8")
+        pos = xml_data.find('<')
+        if pos > 0:
+            xml_data = xml_data[pos:]
+        xml_data = '<?xml version="1.0"?>' + xml_data
+        return xml_data
     
 def validar_xml_contra_xsd(xml_path, xsd_path, tiss_version):
     try:
