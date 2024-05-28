@@ -87,14 +87,26 @@ def corrigir_xml(arquivo):
         xml_data = '<?xml version="1.0"?>' + xml_data
         return xml_data
     
+def traduzir_erro_cbos(erro):
+    if "Element '{http://www.ans.gov.br/padroes/tiss/schemas}CBOS'" in erro and "[facet 'enumeration']" in erro:
+        valor_invalido = erro.split("The value '")[1].split("' is not an element of the set")[0]
+        valores_permitidos = erro.split("{")[-1].split("}")[0]
+        valores_permitidos = valores_permitidos.replace("'", "").split(", ")
+        
+        return (
+            f"O valor '{valor_invalido}' fornecido para o elemento 'CBOS' não é válido. "
+            f"Os valores permitidos são: {', '.join(valores_permitidos)}."
+        )
+    return erro
+    
 def validar_xml_contra_xsd(xml_path, xsd_path, tiss_version):
     try:
         with open(xsd_path, 'rb') as xsd_file:
             schema_doc = etree.parse(xsd_file)
 
         schema = etree.XMLSchema(schema_doc)
-        
-        codificacoes = ['utf-8', 'iso-8859-1', 'windows-1252']  # Adicione mais codificações se necessário
+
+        codificacoes = ['utf-8', 'iso-8859-1', 'windows-1252']
         for cod in codificacoes:
             try:
                 with open(xml_path, 'rb') as xml_file:
@@ -102,22 +114,32 @@ def validar_xml_contra_xsd(xml_path, xsd_path, tiss_version):
                     for elem in xml_doc.iter():
                         if elem.text is None:
                             elem.text = ""
+
                 schema.assertValid(xml_doc)
                 return f"O XML é válido de acordo com o schema XSD fornecido. TISS {tiss_version} "
+            
             except IOError as e:
-                print(f"Falha ao abrir o arquivo {xml_path}: {e}")
                 return f"Falha ao abrir o arquivo: {e}"
+            
             except UnicodeDecodeError as e:
                 print(f"Falha ao ler o arquivo XML {xml_path} com a codificação {cod}: {e}")
-                return f"Falha ao ler o arquivo XML com a codificação {cod}: {e}"
+                continue
+            
             except etree.XMLSyntaxError as e:
-                print(f"Erro de análise XML no arquivo {xml_path}: {e}")
                 return f"Erro de análise XML: {e}"
-
+            
+            except etree.DocumentInvalid as e:
+                errors = []
+                for error in schema.error_log:
+                    erro_traduzido = traduzir_erro_cbos(error.message)
+                    errors.append(f"Linha {error.line}: {erro_traduzido}")
+                return "Erros de validação XML:\n" + "\n".join(errors)
 
     except IOError as e:
         return f"Erro ao carregar o schema XSD: {e}"
+    
     except etree.XMLSchemaError as e:
         return f"Erro ao validar o XML: {e}"
+    
     except Exception as e:
         return f"Erro {e}. TISS {tiss_version}"
