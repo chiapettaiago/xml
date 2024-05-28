@@ -23,8 +23,8 @@
                 </div>
                 {% else %}
                 <div class="alert alert-success" role="alert">
-                    {{ resultado_validacao }}
-                </div>
+                    <p class="text-break">{{ resultado_validacao.replace('Linha', '<br><br>Linha') | safe }}</p>
+                </div>                
                 {% endif %}
             </div>
         </div>
